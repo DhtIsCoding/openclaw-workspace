@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-08T10:42:55.968Z",
+  "entries": {
+    "memory:memory/2026-04-05.md:66:101": {
+      "key": "memory:memory/2026-04-05.md:66:101",
+      "path": "memory/2026-04-05.md",
+      "startLine": 66,
+      "endLine": 101,
+      "source": "memory",
+      "snippet": "- `~/.clawdbot/tasks/` - Task queue, dependencies, incoming reports - `~/.clawdbot/scoring/` - Scoring engine (scoring rules, issue mapping, domain progress) - `~/.clawdbot/dependency-graph/` - Service dependency graph ### Current EMR Domain Scores (from scoring/domain-progress.json) | Domain | Current | Target | Gap | |--------|---------|--------|-----| | 检验处理 (LIS) | 9 | 13 | 4 | | 护理管理 | 9 | 15 | 6 | | CDR/文档 | 3 | 7 | 4 | | 门诊医师 | 8 | 21 | 13 | | 病房医师 | 12 | 28 | 16 | | 治疗信息处理 | 6 | 20 | 14 | | 医疗保障 | 8 | 18 | 10 | | 检查科室 | 0 | 14 | 14 | | **Total** | **55** | **170** | **115** | ## Key Decisions Made 1. **Two-Phase Review**: fixed-reviewer separated from gh-issues to handle post-merg",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.589728455108287,
+      "maxScore": 0.589728455108287,
+      "firstRecalledAt": "2026-04-08T08:32:27.429Z",
+      "lastRecalledAt": "2026-04-08T08:32:27.429Z",
+      "queryHashes": [
+        "49f06e70c3fe"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "clawdbot/tasks",
+        "clawdbot/scoring",
+        "clawdbot/dependency-graph",
+        "scoring/domain-progress.json",
+        "cdr/文档",
+        "two-phase",
+        "fixed-reviewer",
+        "gh-issues"
+      ]
+    },
+    "memory:memory/2026-04-05.md:39:72": {
+      "key": "memory:memory/2026-04-05.md:39:72",
+      "path": "memory/2026-04-05.md",
+      "startLine": 39,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "| Job | Frequency | Target | Status | |-----|-----------|--------|--------| | his-orchestrator | 5min | Orchestrator | running | | his-issue-worker | 5min | Issues | running | | his-fixed-reviewer | 10min | Fixed PRs | running | | his-emr-reviewer | 1hr | EMR review | running | | his-test-coverage | 1day | Test coverage | idle | | his-api-consistency | 7day | API check | idle | | his-security-audit | 7day | Security | idle | ### Skills Created Today - `system-memory` - Long-term memory / error pattern rules - `goal-tracker` - EMR Level 6 goal tracking - `orchestrator` - Global coordinator - `task-decomposer` - Large task decomposition - `fixed-reviewer` - PR quality reviewer (separated from",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.5227861125758387,
+      "maxScore": 0.5227861125758387,
+      "firstRecalledAt": "2026-04-08T10:42:55.968Z",
+      "lastRecalledAt": "2026-04-08T10:42:55.968Z",
+      "queryHashes": [
+        "4de6bb687fc0"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "his-orchestrator",
+        "his-issue-worker",
+        "his-fixed-reviewer",
+        "his-emr-reviewer",
+        "his-test-coverage",
+        "his-api-consistency",
+        "his-security-audit",
+        "system-memory"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:45": {
+      "key": "memory:memory/2026-04-05.md:1:45",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "# 2026-04-05 Daily Log ## Orchestrator Runs ### 14:41 UTC - Status Check - Incoming report from `his-issue-worker`: Issue #160 (XDS Document Registry / ITI-18) - PR #180 open with 19 review comments - BLOCKED by PR #181/184 not yet merged - Action: `issue_assigned_status` (status update only) - Queue: Issue #159 (XDS 核心数据模型 / ITI-41) requeued due to timeout - In-progress: empty - No completed tasks this cycle ## Notes - XDS domain has 2 blocked PRs (#180, #159) - FHIR domain has largest gap (30) and highest priority --- ## 16:14 UTC - GH_TOKEN Error & Fix ### Problem - All cron jobs started failing with `401 Bad credentials` - Cause: I incorrectly added `GH_TOKEN` as a top-level",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.4235811062611529,
+      "maxScore": 0.4235811062611529,
+      "firstRecalledAt": "2026-04-08T10:42:55.968Z",
+      "lastRecalledAt": "2026-04-08T10:42:55.968Z",
+      "queryHashes": [
+        "4de6bb687fc0"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "his-issue-worker",
+        "iti-18",
+        "181/184",
+        "issue-assigned-status",
+        "iti-41",
+        "in-progress",
+        "gh-token",
+        "top-level"
+      ]
+    }
+  }
+}
