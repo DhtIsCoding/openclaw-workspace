@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-08T10:42:55.968Z",
+  "updatedAt": "2026-04-09T10:11:23.693Z",
   "entries": {
     "memory:memory/2026-04-05.md:66:101": {
       "key": "memory:memory/2026-04-05.md:66:101",
@@ -9,17 +9,20 @@
       "endLine": 101,
       "source": "memory",
       "snippet": "- `~/.clawdbot/tasks/` - Task queue, dependencies, incoming reports - `~/.clawdbot/scoring/` - Scoring engine (scoring rules, issue mapping, domain progress) - `~/.clawdbot/dependency-graph/` - Service dependency graph ### Current EMR Domain Scores (from scoring/domain-progress.json) | Domain | Current | Target | Gap | |--------|---------|--------|-----| | 检验处理 (LIS) | 9 | 13 | 4 | | 护理管理 | 9 | 15 | 6 | | CDR/文档 | 3 | 7 | 4 | | 门诊医师 | 8 | 21 | 13 | | 病房医师 | 12 | 28 | 16 | | 治疗信息处理 | 6 | 20 | 14 | | 医疗保障 | 8 | 18 | 10 | | 检查科室 | 0 | 14 | 14 | | **Total** | **55** | **170** | **115** | ## Key Decisions Made 1. **Two-Phase Review**: fixed-reviewer separated from gh-issues to handle post-merg",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
-      "totalScore": 0.589728455108287,
+      "totalScore": 1.0415896591073617,
       "maxScore": 0.589728455108287,
       "firstRecalledAt": "2026-04-08T08:32:27.429Z",
-      "lastRecalledAt": "2026-04-08T08:32:27.429Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
       "queryHashes": [
-        "49f06e70c3fe"
+        "49f06e70c3fe",
+        "e604a6289aab",
+        "10c0d7e9eacb"
       ],
       "recallDays": [
-        "2026-04-08"
+        "2026-04-08",
+        "2026-04-09"
       ],
       "conceptTags": [
         "clawdbot/tasks",
@@ -39,17 +42,20 @@
       "endLine": 72,
       "source": "memory",
       "snippet": "| Job | Frequency | Target | Status | |-----|-----------|--------|--------| | his-orchestrator | 5min | Orchestrator | running | | his-issue-worker | 5min | Issues | running | | his-fixed-reviewer | 10min | Fixed PRs | running | | his-emr-reviewer | 1hr | EMR review | running | | his-test-coverage | 1day | Test coverage | idle | | his-api-consistency | 7day | API check | idle | | his-security-audit | 7day | Security | idle | ### Skills Created Today - `system-memory` - Long-term memory / error pattern rules - `goal-tracker` - EMR Level 6 goal tracking - `orchestrator` - Global coordinator - `task-decomposer` - Large task decomposition - `fixed-reviewer` - PR quality reviewer (separated from",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
-      "totalScore": 0.5227861125758387,
+      "totalScore": 0.7260795805674445,
       "maxScore": 0.5227861125758387,
       "firstRecalledAt": "2026-04-08T10:42:55.968Z",
-      "lastRecalledAt": "2026-04-08T10:42:55.968Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
       "queryHashes": [
-        "4de6bb687fc0"
+        "4de6bb687fc0",
+        "e604a6289aab",
+        "10c0d7e9eacb"
       ],
       "recallDays": [
-        "2026-04-08"
+        "2026-04-08",
+        "2026-04-09"
       ],
       "conceptTags": [
         "his-orchestrator",
@@ -69,17 +75,20 @@
       "endLine": 45,
       "source": "memory",
       "snippet": "# 2026-04-05 Daily Log ## Orchestrator Runs ### 14:41 UTC - Status Check - Incoming report from `his-issue-worker`: Issue #160 (XDS Document Registry / ITI-18) - PR #180 open with 19 review comments - BLOCKED by PR #181/184 not yet merged - Action: `issue_assigned_status` (status update only) - Queue: Issue #159 (XDS 核心数据模型 / ITI-41) requeued due to timeout - In-progress: empty - No completed tasks this cycle ## Notes - XDS domain has 2 blocked PRs (#180, #159) - FHIR domain has largest gap (30) and highest priority --- ## 16:14 UTC - GH_TOKEN Error & Fix ### Problem - All cron jobs started failing with `401 Bad credentials` - Cause: I incorrectly added `GH_TOKEN` as a top-level",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
-      "totalScore": 0.4235811062611529,
+      "totalScore": 0.6133589107459748,
       "maxScore": 0.4235811062611529,
       "firstRecalledAt": "2026-04-08T10:42:55.968Z",
-      "lastRecalledAt": "2026-04-08T10:42:55.968Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
       "queryHashes": [
-        "4de6bb687fc0"
+        "4de6bb687fc0",
+        "e604a6289aab",
+        "10c0d7e9eacb"
       ],
       "recallDays": [
-        "2026-04-08"
+        "2026-04-08",
+        "2026-04-09"
       ],
       "conceptTags": [
         "his-issue-worker",
@@ -90,6 +99,98 @@
         "in-progress",
         "gh-token",
         "top-level"
+      ]
+    },
+    "memory:memory/2026-04-05.md:90:131": {
+      "key": "memory:memory/2026-04-05.md:90:131",
+      "path": "memory/2026-04-05.md",
+      "startLine": 90,
+      "endLine": 131,
+      "source": "memory",
+      "snippet": "6. **Pre-PR Validation**: go vet / golangci-lint / go test run before push (CI gate) ## Discord Integration - App ID: 1478958720145817732 - Server ID: 1478912306376085586 - Channel ID: 1478967274193948763 (his-orchestrator delivery channel) - User ID: 1097055660279079002 ## Pending Work 1. **Three new capabilities planned**: - scoring-engine (in progress - data structures done) - emr-researcher (planned) - dependency-scheduler (in progress - dependency graph done) 2. **Orchestrator channel issue**: isolated sessions can't announce to webchat. Using Discord channel for delivery instead. 3. **Sub-agent model**: Workers use `minimax-portal/MiniMax-M2.7-highspeed` for sub-agents 4",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "totalScore": 0.8743689419390539,
+      "maxScore": 0.5809852062995926,
+      "firstRecalledAt": "2026-04-09T05:22:01.859Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "queryHashes": [
+        "e604a6289aab",
+        "ea963e8cd448",
+        "10c0d7e9eacb"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "pre-pr",
+        "golangci-lint",
+        "his-orchestrator",
+        "scoring-engine",
+        "emr-researcher",
+        "dependency-scheduler",
+        "sub-agent",
+        "sub-agents"
+      ]
+    },
+    "memory:memory/2026-04-06.md:1:28": {
+      "key": "memory:memory/2026-04-06.md:1:28",
+      "path": "memory/2026-04-06.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "# 2026-04-06 工作日志 ## 今日主要工作 ### 1. 代码合并（main 分支） 推送了 19 个 commits 到 origin/main，合并了以下分支： - `feat/issue-195-xds-folder-model` — Folder模型、SubmissionSet、SOAP ITI-41 - `fix/issue-200-199-198` — import collision 修复 + handler 集成测试 - `fix/issue-199-xds-rocketmq-events` — RocketMQ 事件发布 - `test/issue-202-xds-unit-tests` — XDS 单元测试覆盖 ### 2. Bug 调查 — CloseFolderHandler/DeprecateFolderHandler **结论：Bug 不存在。** sub-agent 在 main 分支引用了 feat 分支才有的 handlers，产生误判。feat 分支中这两个 handler 均正确调用了 `repo.Save()`。 ### 3. 定时任务状态 - `his-orchestrator`: 连续 5 次 timeout，Discord 投递 unknown - `his-fixed-reviewer`: 1 次 timeout - `his-test-coverage`: Discord recipient 缺失错误 - 其余任务正常 ### 4. Discord 连接故障 日志显示凌晨 03:45 左右 Discord",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.31412490520321695,
+      "maxScore": 0.31412490520321695,
+      "firstRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "queryHashes": [
+        "10c0d7e9eacb"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "origin/main",
+        "feat/issue-195-xds-folder-model",
+        "iti-41",
+        "fix/issue-200-199-198",
+        "test/issue-202-xds-unit-tests",
+        "sub-agent",
+        "repo.save",
+        "his-orchestrator"
+      ]
+    },
+    "memory:memory/2026-04-05.md:127:161": {
+      "key": "memory:memory/2026-04-05.md:127:161",
+      "path": "memory/2026-04-05.md",
+      "startLine": 127,
+      "endLine": 161,
+      "source": "memory",
+      "snippet": "OpenClaw subagent documentation states: > \"After spawning children, do NOT call sessions_list, sessions_history, exec sleep, or any polling tool. Wait for completion events to arrive as user messages\" The Orchestrator violated this pattern: 1. `sessions_spawn` is **async** - returns immediately with `{ status: \"accepted\", runId, childSessionKey }` 2. After spawning, Orchestrator called `process poll(timeout: 60000)` to wait 3. The spawned commands may not complete within the poll timeout 4. Cron job ran from 18:17 to 19:26 = 69 minutes total ### Sessions_spawn Behavior (confirmed by docs) - Non-blocking: returns `{ status: \"accepted\", runId, childSessionKey }` immediately - Sub-agent runs",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.1926585104318159,
+      "maxScore": 0.1926585104318159,
+      "firstRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "queryHashes": [
+        "10c0d7e9eacb"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "sessions-list",
+        "sessions-history",
+        "sessions-spawn",
+        "non-blocking",
+        "sub-agent",
+        "openclaw",
+        "subagent",
+        "documentation"
       ]
     }
   }
