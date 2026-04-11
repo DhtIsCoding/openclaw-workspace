@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T10:11:23.693Z",
+  "updatedAt": "2026-04-10T10:07:58.141Z",
   "entries": {
     "memory:memory/2026-04-05.md:66:101": {
       "key": "memory:memory/2026-04-05.md:66:101",
@@ -9,20 +9,27 @@
       "endLine": 101,
       "source": "memory",
       "snippet": "- `~/.clawdbot/tasks/` - Task queue, dependencies, incoming reports - `~/.clawdbot/scoring/` - Scoring engine (scoring rules, issue mapping, domain progress) - `~/.clawdbot/dependency-graph/` - Service dependency graph ### Current EMR Domain Scores (from scoring/domain-progress.json) | Domain | Current | Target | Gap | |--------|---------|--------|-----| | 检验处理 (LIS) | 9 | 13 | 4 | | 护理管理 | 9 | 15 | 6 | | CDR/文档 | 3 | 7 | 4 | | 门诊医师 | 8 | 21 | 13 | | 病房医师 | 12 | 28 | 16 | | 治疗信息处理 | 6 | 20 | 14 | | 医疗保障 | 8 | 18 | 10 | | 检查科室 | 0 | 14 | 14 | | **Total** | **55** | **170** | **115** | ## Key Decisions Made 1. **Two-Phase Review**: fixed-reviewer separated from gh-issues to handle post-merg",
-      "recallCount": 3,
+      "recallCount": 9,
       "dailyCount": 0,
-      "totalScore": 1.0415896591073617,
+      "totalScore": 2.7294484297467574,
       "maxScore": 0.589728455108287,
       "firstRecalledAt": "2026-04-08T08:32:27.429Z",
-      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-10T10:07:58.141Z",
       "queryHashes": [
         "49f06e70c3fe",
         "e604a6289aab",
-        "10c0d7e9eacb"
+        "10c0d7e9eacb",
+        "0df3affa8c70",
+        "8b1ecc85403b",
+        "ce229da1700e",
+        "a7406f59fa7c",
+        "2406bfc0e400",
+        "1796d475f18b"
       ],
       "recallDays": [
         "2026-04-08",
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-10"
       ],
       "conceptTags": [
         "clawdbot/tasks",
@@ -42,20 +49,24 @@
       "endLine": 72,
       "source": "memory",
       "snippet": "| Job | Frequency | Target | Status | |-----|-----------|--------|--------| | his-orchestrator | 5min | Orchestrator | running | | his-issue-worker | 5min | Issues | running | | his-fixed-reviewer | 10min | Fixed PRs | running | | his-emr-reviewer | 1hr | EMR review | running | | his-test-coverage | 1day | Test coverage | idle | | his-api-consistency | 7day | API check | idle | | his-security-audit | 7day | Security | idle | ### Skills Created Today - `system-memory` - Long-term memory / error pattern rules - `goal-tracker` - EMR Level 6 goal tracking - `orchestrator` - Global coordinator - `task-decomposer` - Large task decomposition - `fixed-reviewer` - PR quality reviewer (separated from",
-      "recallCount": 3,
+      "recallCount": 6,
       "dailyCount": 0,
-      "totalScore": 0.7260795805674445,
+      "totalScore": 1.2488692820051088,
       "maxScore": 0.5227861125758387,
       "firstRecalledAt": "2026-04-08T10:42:55.968Z",
-      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-10T10:07:58.141Z",
       "queryHashes": [
         "4de6bb687fc0",
         "e604a6289aab",
-        "10c0d7e9eacb"
+        "10c0d7e9eacb",
+        "a7406f59fa7c",
+        "1d66a1a2bf90",
+        "1796d475f18b"
       ],
       "recallDays": [
         "2026-04-08",
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-10"
       ],
       "conceptTags": [
         "his-orchestrator",
@@ -75,20 +86,24 @@
       "endLine": 45,
       "source": "memory",
       "snippet": "# 2026-04-05 Daily Log ## Orchestrator Runs ### 14:41 UTC - Status Check - Incoming report from `his-issue-worker`: Issue #160 (XDS Document Registry / ITI-18) - PR #180 open with 19 review comments - BLOCKED by PR #181/184 not yet merged - Action: `issue_assigned_status` (status update only) - Queue: Issue #159 (XDS 核心数据模型 / ITI-41) requeued due to timeout - In-progress: empty - No completed tasks this cycle ## Notes - XDS domain has 2 blocked PRs (#180, #159) - FHIR domain has largest gap (30) and highest priority --- ## 16:14 UTC - GH_TOKEN Error & Fix ### Problem - All cron jobs started failing with `401 Bad credentials` - Cause: I incorrectly added `GH_TOKEN` as a top-level",
-      "recallCount": 3,
+      "recallCount": 6,
       "dailyCount": 0,
-      "totalScore": 0.6133589107459748,
+      "totalScore": 1.0369426356679259,
       "maxScore": 0.4235811062611529,
       "firstRecalledAt": "2026-04-08T10:42:55.968Z",
-      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-10T10:07:58.141Z",
       "queryHashes": [
         "4de6bb687fc0",
         "e604a6289aab",
-        "10c0d7e9eacb"
+        "10c0d7e9eacb",
+        "a7406f59fa7c",
+        "1d66a1a2bf90",
+        "1796d475f18b"
       ],
       "recallDays": [
         "2026-04-08",
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-10"
       ],
       "conceptTags": [
         "his-issue-worker",
@@ -108,19 +123,24 @@
       "endLine": 131,
       "source": "memory",
       "snippet": "6. **Pre-PR Validation**: go vet / golangci-lint / go test run before push (CI gate) ## Discord Integration - App ID: 1478958720145817732 - Server ID: 1478912306376085586 - Channel ID: 1478967274193948763 (his-orchestrator delivery channel) - User ID: 1097055660279079002 ## Pending Work 1. **Three new capabilities planned**: - scoring-engine (in progress - data structures done) - emr-researcher (planned) - dependency-scheduler (in progress - dependency graph done) 2. **Orchestrator channel issue**: isolated sessions can't announce to webchat. Using Discord channel for delivery instead. 3. **Sub-agent model**: Workers use `minimax-portal/MiniMax-M2.7-highspeed` for sub-agents 4",
-      "recallCount": 3,
+      "recallCount": 7,
       "dailyCount": 0,
-      "totalScore": 0.8743689419390539,
+      "totalScore": 1.4611364132179765,
       "maxScore": 0.5809852062995926,
       "firstRecalledAt": "2026-04-09T05:22:01.859Z",
-      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-10T10:07:58.141Z",
       "queryHashes": [
         "e604a6289aab",
         "ea963e8cd448",
-        "10c0d7e9eacb"
+        "10c0d7e9eacb",
+        "8b1ecc85403b",
+        "a7406f59fa7c",
+        "2406bfc0e400",
+        "1796d475f18b"
       ],
       "recallDays": [
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-10"
       ],
       "conceptTags": [
         "pre-pr",
@@ -140,17 +160,21 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "# 2026-04-06 工作日志 ## 今日主要工作 ### 1. 代码合并（main 分支） 推送了 19 个 commits 到 origin/main，合并了以下分支： - `feat/issue-195-xds-folder-model` — Folder模型、SubmissionSet、SOAP ITI-41 - `fix/issue-200-199-198` — import collision 修复 + handler 集成测试 - `fix/issue-199-xds-rocketmq-events` — RocketMQ 事件发布 - `test/issue-202-xds-unit-tests` — XDS 单元测试覆盖 ### 2. Bug 调查 — CloseFolderHandler/DeprecateFolderHandler **结论：Bug 不存在。** sub-agent 在 main 分支引用了 feat 分支才有的 handlers，产生误判。feat 分支中这两个 handler 均正确调用了 `repo.Save()`。 ### 3. 定时任务状态 - `his-orchestrator`: 连续 5 次 timeout，Discord 投递 unknown - `his-fixed-reviewer`: 1 次 timeout - `his-test-coverage`: Discord recipient 缺失错误 - 其余任务正常 ### 4. Discord 连接故障 日志显示凌晨 03:45 左右 Discord",
-      "recallCount": 1,
+      "recallCount": 4,
       "dailyCount": 0,
-      "totalScore": 0.31412490520321695,
+      "totalScore": 0.9423763508695031,
       "maxScore": 0.31412490520321695,
       "firstRecalledAt": "2026-04-09T10:11:23.693Z",
-      "lastRecalledAt": "2026-04-09T10:11:23.693Z",
+      "lastRecalledAt": "2026-04-10T07:10:11.722Z",
       "queryHashes": [
-        "10c0d7e9eacb"
+        "10c0d7e9eacb",
+        "8b1ecc85403b",
+        "a7406f59fa7c",
+        "2406bfc0e400"
       ],
       "recallDays": [
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-10"
       ],
       "conceptTags": [
         "origin/main",
