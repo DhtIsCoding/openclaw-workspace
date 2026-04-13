@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-10T10:07:58.141Z",
+  "updatedAt": "2026-04-11T02:43:41.983Z",
   "entries": {
     "memory:memory/2026-04-05.md:66:101": {
       "key": "memory:memory/2026-04-05.md:66:101",
@@ -86,24 +86,26 @@
       "endLine": 45,
       "source": "memory",
       "snippet": "# 2026-04-05 Daily Log ## Orchestrator Runs ### 14:41 UTC - Status Check - Incoming report from `his-issue-worker`: Issue #160 (XDS Document Registry / ITI-18) - PR #180 open with 19 review comments - BLOCKED by PR #181/184 not yet merged - Action: `issue_assigned_status` (status update only) - Queue: Issue #159 (XDS 核心数据模型 / ITI-41) requeued due to timeout - In-progress: empty - No completed tasks this cycle ## Notes - XDS domain has 2 blocked PRs (#180, #159) - FHIR domain has largest gap (30) and highest priority --- ## 16:14 UTC - GH_TOKEN Error & Fix ### Problem - All cron jobs started failing with `401 Bad credentials` - Cause: I incorrectly added `GH_TOKEN` as a top-level",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
-      "totalScore": 1.0369426356679259,
+      "totalScore": 1.4605237419290789,
       "maxScore": 0.4235811062611529,
       "firstRecalledAt": "2026-04-08T10:42:55.968Z",
-      "lastRecalledAt": "2026-04-10T10:07:58.141Z",
+      "lastRecalledAt": "2026-04-11T02:43:41.983Z",
       "queryHashes": [
         "4de6bb687fc0",
         "e604a6289aab",
         "10c0d7e9eacb",
         "a7406f59fa7c",
         "1d66a1a2bf90",
-        "1796d475f18b"
+        "1796d475f18b",
+        "de4b5bd9e00c"
       ],
       "recallDays": [
         "2026-04-08",
         "2026-04-09",
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "conceptTags": [
         "his-issue-worker",
@@ -214,6 +216,36 @@
         "sub-agent",
         "openclaw",
         "subagent",
+        "documentation"
+      ]
+    },
+    "memory:memory/2026-04-05.md:156:173": {
+      "key": "memory:memory/2026-04-05.md:156:173",
+      "path": "memory/2026-04-05.md",
+      "startLine": 156,
+      "endLine": 173,
+      "source": "memory",
+      "snippet": "- ❌ `exec sleep` after spawn - ❌ `sessions_history` after spawn ### Key Documentation References - `/home/dht/.local/share/fnm/node-versions/v24.14.1/installation/lib/node_modules/openclaw/docs/tools/subagents.md` - `/home/dht/.local/share/fnm/node-versions/v24.14.1/installation/lib/node_modules/openclaw/docs/automation/cron-jobs.md` - `/home/dht/.local/share/fnm/node-versions/v24.14.1/installation/lib/node_modules/openclaw/docs/automation/tasks.md` ### Subagent Task Lifecycle - Task created: queued → running → terminal (succeeded/failed/timed_out/cancelled/lost) - Completion triggers heartbeat wake automatically - Default notify policy: `done_only` (only terminal state) ### Next Steps (P",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.6233911851251206,
+      "maxScore": 0.6233911851251206,
+      "firstRecalledAt": "2026-04-11T02:43:41.983Z",
+      "lastRecalledAt": "2026-04-11T02:43:41.983Z",
+      "queryHashes": [
+        "de4b5bd9e00c"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "sessions-history",
+        "home/dht",
+        "done-only",
+        "exec",
+        "sleep",
+        "spawn",
+        "key",
         "documentation"
       ]
     }
