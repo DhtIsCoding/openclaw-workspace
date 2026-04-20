@@ -52,6 +52,11 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+### OpenClaw 配置修改
+
+- **修改 `openclaw.json` 或任何配置文件之前**：先读 `openclaw help` / `docs/` 中的相关文档，或读取配置文件本身，确认字段含义和生效条件
+- **不确定的不执行**：配置错误可能导致 gateway 无法启动，宁可先问 dht
+
 ## External vs Internal
 
 **Safe to do freely:**

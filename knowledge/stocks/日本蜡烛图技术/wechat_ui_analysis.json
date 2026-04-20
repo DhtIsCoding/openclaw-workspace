@@ -1,0 +1,256 @@
+{
+  "canvas": [
+    {
+      "width": 649,
+      "height": 815,
+      "id": "",
+      "className": "",
+      "left": 262,
+      "top": 73
+    },
+    {
+      "width": 649,
+      "height": 815,
+      "id": "",
+      "className": "",
+      "left": 1009,
+      "top": 73
+    }
+  ],
+  "floatingUI": [
+    {
+      "tag": "DIV",
+      "className": "readerTopBar",
+      "innerText": "微信读书书城\n日本蜡烛图技术：古老东方投资术的现代指南\n加入书架\n首页\n我的书架",
+      "zIndex": 80,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": 192,
+        "w": 1536,
+        "h": 72
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "reader_float_review_with_range_panel_wrapper",
+      "innerText": "",
+      "zIndex": 99999,
+      "position": "absolute",
+      "rect": {
+        "top": 73,
+        "left": 192,
+        "w": 1536,
+        "h": 813
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 100000,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "reader_float_top_reviews_panel_wrapper",
+      "innerText": "",
+      "zIndex": 99999,
+      "position": "absolute",
+      "rect": {
+        "top": 73,
+        "left": 192,
+        "w": 1536,
+        "h": 813
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "reader_float_search_panel_wrapper",
+      "innerText": "",
+      "zIndex": 99999,
+      "position": "absolute",
+      "rect": {
+        "top": 73,
+        "left": 192,
+        "w": 1536,
+        "h": 813
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "reader_float_search_panel_wrapper",
+      "innerText": "",
+      "zIndex": 99999,
+      "position": "absolute",
+      "rect": {
+        "top": 73,
+        "left": 192,
+        "w": 1536,
+        "h": 813
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "reader_float_search_panel_wrapper",
+      "innerText": "",
+      "zIndex": 99999,
+      "position": "absolute",
+      "rect": {
+        "top": 73,
+        "left": 192,
+        "w": 1536,
+        "h": 813
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 100000,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "wr_mask",
+      "innerText": "",
+      "zIndex": 90,
+      "position": "fixed",
+      "rect": {
+        "top": 0,
+        "left": -9999,
+        "w": 1920,
+        "h": 945
+      }
+    }
+  ],
+  "selectionUI": [
+    {
+      "cls": "wr_copy",
+      "tag": "BUTTON",
+      "rect": {
+        "top": 0,
+        "left": 0,
+        "w": 0,
+        "h": 0
+      },
+      "text": "复制"
+    }
+  ]
+}

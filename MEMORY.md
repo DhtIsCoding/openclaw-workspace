@@ -1,24 +1,61 @@
 # Long-Term Memory
 
+## 系统配置（持续更新）
 
-## Promoted From Short-Term Memory (2026-04-13)
+- **Discord Bot**: 猫猫 (ID: 1478958720145817732)
+- **Discord Server/Channel**: Momo / 1478967274193948763
+- **Discord proxy**: `http://127.0.0.1:10808`（必须保留，dht在中国大陆）
+- **GitHub**: DhtIsCoding 账户，PAT 在 `~/.github-token`
+- **Gateway**: systemd service `openclaw-gateway.service`，端口 18789
+- **WSL2 + Playwright**: `libasound2t64` 已安装，内置 Chromium 可运行
 
-<!-- openclaw-memory-promotion:memory:memory/2026-04-05.md:66:101 -->
-- - `~/.clawdbot/tasks/` - Task queue, dependencies, incoming reports - `~/.clawdbot/scoring/` - Scoring engine (scoring rules, issue mapping, domain progress) - `~/.clawdbot/dependency-graph/` - Service dependency graph ### Current EMR Domain Scores (from scoring/domain-progress.json) | Domain | Current | Target | Gap | |--------|---------|--------|-----| | 检验处理 (LIS) | 9 | 13 | 4 | | 护理管理 | 9 | 15 | 6 | | CDR/文档 | 3 | 7 | 4 | | 门诊医师 | 8 | 21 | 13 | | 病房医师 | 12 | 28 | 16 | | 治疗信息处理 | 6 | 20 | 14 | | 医疗保障 | 8 | 18 | 10 | | 检查科室 | 0 | 14 | 14 | | **Total** | **55** | **170** | **115** | ## Key Decisions Made 1. **Two-Phase Review**: fixed-reviewer separated from gh-issues to handle post-merge PR review 2. **Path A for Doc Errata**: EMR expert fixes doc errors directly via PR (not separate skill) 3. **Scoring-engine**: Issue→score mapping established based on 附录C-评分细节分析.md 4. **Dependency-scheduler**: Service dependency graph created (fhir→lis, cdss→all, etc.) 5. **Rule Upgrade Threshold**: Error patterns with count ≥ 3 auto-upgrade to mandatory rules 6. **Pre-PR Validation**: go vet / golangci-lint / go test run before push (CI gate) ## Discord Integration - App ID: 1478958720145817732 - Server ID: 1478912306376085586 - Channel ID: 1478967274193948763 (his-orchestrator delivery channel) - User ID: 1097055660279079002 ## Pending Work 1. **Three new capabilities planned**: - scoring-engine (in progress - data structures done) [score=0.859 recalls=10 avg=0.273 source=memory/2026-04-05.md:66-101]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-05.md:1:45 -->
-- # 2026-04-05 Daily Log ## Orchestrator Runs ### 14:41 UTC - Status Check - Incoming report from `his-issue-worker`: Issue #160 (XDS Document Registry / ITI-18) - PR #180 open with 19 review comments - BLOCKED by PR #181/184 not yet merged - Action: `issue_assigned_status` (status update only) - Queue: Issue #159 (XDS 核心数据模型 / ITI-41) requeued due to timeout - In-progress: empty - No completed tasks this cycle ## Notes - XDS domain has 2 blocked PRs (#180, #159) - FHIR domain has largest gap (30) and highest priority --- ## 16:14 UTC - GH_TOKEN Error & Fix ### Problem - All cron jobs started failing with `401 Bad credentials` - Cause: I incorrectly added `GH_TOKEN` as a top-level field in `~/.openclaw/openclaw.json`, invalidating the config - Fixed by: Removing the invalid field from openclaw.json ### Solution Applied - Restored `~/.openclaw/openclaw.json` to valid state - GH_TOKEN stored at: `~/.github-token` (file-based) - Updated cron job token reading to use absolute path: `/home/dht/.github-token` ### Verified - GH_TOKEN at `~/.github-token` is valid: `github_pat_11ALXGDAQ0BWsnoL3rq8uC...` - GitHub API confirmed working ## System Architecture (as of 16:22 UTC) ### Active Cron Jobs | Job | Frequency | Target | Status | |-----|-----------|--------|--------| | his-orchestrator | 5min | Orchestrator | running | | his-issue-worker | 5min | Issues | running | | his-fixed-reviewer | 10min | Fixed PRs | running | | his-emr-reviewer | 1hr | EMR review | running | | his-test-coverage | 1day | Test coverage | idle | [score=0.813 recalls=8 avg=0.183 source=memory/2026-04-05.md:1-45]
+## EMR 评级项目（核心目标）
 
-## Promoted From Short-Term Memory (2026-04-13)
+**目标：8级智慧医疗系统，通过评审**
 
-<!-- openclaw-memory-promotion:memory:memory/2026-04-05.md:39:72 -->
-- | Job | Frequency | Target | Status | |-----|-----------|--------|--------| | his-orchestrator | 5min | Orchestrator | running | | his-issue-worker | 5min | Issues | running | | his-fixed-reviewer | 10min | Fixed PRs | running | | his-emr-reviewer | 1hr | EMR review | running | | his-test-coverage | 1day | Test coverage | idle | | his-api-consistency | 7day | API check | idle | | his-security-audit | 7day | Security | idle | ### Skills Created Today - `system-memory` - Long-term memory / error pattern rules - `goal-tracker` - EMR Level 6 goal tracking - `orchestrator` - Global coordinator - `task-decomposer` - Large task decomposition - `fixed-reviewer` - PR quality reviewer (separated from gh-issues) - `test-coverage` - Test coverage analyzer - `api-consistency` - API consistency checker - `security-audit` - Security auditor - `emr-expert` - EMR Level 6 reviewer with doc errata - `scoring-engine` - EMR scoring calculator (new) - `dependency-scheduler` - Dependency-aware scheduler (new) - `microservices-his` - Project architecture reference ### Data Directories - `~/.clawdbot/memory/` - System memory (error patterns, rules, processed issues) - `~/.clawdbot/goals/` - Goal tracker (domain scores, progress, priorities) - `~/.clawdbot/tasks/` - Task queue, dependencies, incoming reports - `~/.clawdbot/scoring/` - Scoring engine (scoring rules, issue mapping, domain progress) - `~/.clawdbot/dependency-graph/` - Service dependency graph ### Current EMR Domain Scores (from scoring/domain-progress.json) | Domain | Current | Target | Gap | |--------|---------|--------|-----| [score=0.809 recalls=7 avg=0.178 source=memory/2026-04-05.md:39-72]
+当前评分进度（2026-04-08）：
+| 领域 | 当前 | 目标 | 差距 |
+|------|------|------|------|
+| 病房医师 | 12 | 28 | 16 |
+| 门诊医师 | 8 | 21 | 13 |
+| 治疗信息处理 | 6 | 20 | 14 |
+| 医疗保障 | 8 | 18 | 10 |
+| 检查科室 | 0 | 14 | 14 |
+| 护理管理 | 9 | 15 | 6 |
+| 检验处理 (LIS) | 9 | 13 | 4 |
+| CDR/文档 | 3 | 7 | 4 |
+| **总计** | **55** | **170** | **115** |
 
-## Promoted From Short-Term Memory (2026-04-13)
+## 关键架构决策
 
-<!-- openclaw-memory-promotion:memory:memory/2026-04-05.md:90:131 -->
-- 6. **Pre-PR Validation**: go vet / golangci-lint / go test run before push (CI gate) ## Discord Integration - App ID: 1478958720145817732 - Server ID: 1478912306376085586 - Channel ID: 1478967274193948763 (his-orchestrator delivery channel) - User ID: 1097055660279079002 ## Pending Work 1. **Three new capabilities planned**: - scoring-engine (in progress - data structures done) - emr-researcher (planned) - dependency-scheduler (in progress - dependency graph done) 2. **Orchestrator channel issue**: isolated sessions can't announce to webchat. Using Discord channel for delivery instead. 3. **Sub-agent model**: Workers use `minimax-portal/MiniMax-M2.7-highspeed` for sub-agents 4. **Auto-PR merge**: NOT implemented - user wants manual review before merge - Only `fixed` label added after merge - No auto-merge behavior 5. **No protection against duplicate runs**: User confirmed no multi-node setup, so no dedup needed --- ## 20:00+ UTC - Orchestrator 57-Minute Timeout Investigation ### Problem - his-orchestrator cron run at 18:17 UTC took 57 minutes (3438s) to timeout - Session: kind-breeze, jobId: e822bc19 - Timeout at 19:26 UTC ### Root Cause Found (from subagent logs) OpenClaw subagent documentation states: > "After spawning children, do NOT call sessions_list, sessions_history, exec sleep, or any polling tool. Wait for completion events to arrive as user messages" The Orchestrator violated this pattern: 1. `sessions_spawn` is **async** - returns immediately with `{ status: "accepted", runId, childSessionKey }` [score=0.805 recalls=8 avg=0.183 source=memory/2026-04-05.md:90-131]
+1. **Two-Phase Review**: fixed-reviewer 从 gh-issues 分离，处理合入后 PR 审查
+2. **sub-agent 超时策略**: 默认 1 小时（3600秒），复杂任务 2 小时（7200秒）
+3. **无 auto-merge**: 用户手动审查后才合并，只加 `fixed` label
+4. **无多节点 dedup**: 单节点部署，无需重复执行保护
+5. **Playwright 等待策略**: 金融行情页用 `domcontentloaded` + `waitForTimeout`，不用 `networkidle`（行情页用 WebSocket 实时推送）
+6. **Discord 必须走代理**: `channels.discord.proxy` 配置不可删除
 
-## Promoted From Short-Term Memory (2026-04-15)
+## 数据目录
 
-<!-- openclaw-memory-promotion:memory:memory/2026-04-06.md:1:28 -->
-- # 2026-04-06 工作日志 ## 今日主要工作 ### 1. 代码合并（main 分支） 推送了 19 个 commits 到 origin/main，合并了以下分支： - `feat/issue-195-xds-folder-model` — Folder模型、SubmissionSet、SOAP ITI-41 - `fix/issue-200-199-198` — import collision 修复 + handler 集成测试 - `fix/issue-199-xds-rocketmq-events` — RocketMQ 事件发布 - `test/issue-202-xds-unit-tests` — XDS 单元测试覆盖 ### 2. Bug 调查 — CloseFolderHandler/DeprecateFolderHandler **结论：Bug 不存在。** sub-agent 在 main 分支引用了 feat 分支才有的 handlers，产生误判。feat 分支中这两个 handler 均正确调用了 `repo.Save()`。 ### 3. 定时任务状态 - `his-orchestrator`: 连续 5 次 timeout，Discord 投递 unknown - `his-fixed-reviewer`: 1 次 timeout - `his-test-coverage`: Discord recipient 缺失错误 - 其余任务正常 ### 4. Discord 连接故障 日志显示凌晨 03:45 左右 Discord WebSocket 连接断开，health-monitor 多次重连失败。影响所有依赖 Discord webhook 的通知任务。 ### 5. 待处理分支（未合并） - `test/issue-215-xds-folder-crud-handler` — 跳过，核心功能已被 feat 分支覆盖 - `feat/issue-205-xds-document-entry-tests` — 包含与 feat 重叠的 commits - `fix/doc-cdss-status-2026-04-05` — CDSS 文档修正 [score=0.802 recalls=5 avg=0.388 source=memory/2026-04-06.md:1-28]
+- `~/.clawdbot/tasks/` - 任务队列、依赖、传入报告
+- `~/.clawdbot/scoring/` - 评分引擎（评分规则、Issue映射、领域进度）
+- `~/.clawdbot/dependency-graph/` - 服务依赖图
+- `~/.clawdbot/memory/` - 系统记忆（错误模式、规则）
+- `~/.clawdbot/goals/` - 目标跟踪器
+
+## 经验教训（长期有效）
+
+- ❌ `sessions_spawn` 后不要调用 `sessions_history` 轮询 → 会阻塞 completion push 机制
+- ❌ 不要在 sub-agent spawn 后执行 `exec sleep` 轮询
+- ✅ 东方财富等金融页面：WebSocket 长连接导致 `networkidle` 超时，改用 `domcontentloaded`
+- ✅ MEMORY.md 保持在 12000 字节以下（OpenClaw 限制），定期精简
+- ✅ Discord 代理配置在 `openclaw.json`，不在 systemd 环境变量
+- ✅ Tushare stock_basic 每小时限制 1 次 → 用 Sina API 获取股票列表（无限制）
+- ✅ Tushare daily 50次/分钟限制 → 每分钟 40 次留余量，错误时等待 65 秒
+
+## 待办 / 在建
+
+1. ~~scoring-engine~~ → 数据结构已完成
+2. ~~dependency-scheduler~~ → 依赖图已完成
+3. emr-researcher → 规划中
+4. 30 个 GitHub Issues 待分配 milestone（Phase 1-4）
