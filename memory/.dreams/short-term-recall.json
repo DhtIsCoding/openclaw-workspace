@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-17T01:52:54.859Z",
+  "updatedAt": "2026-04-18T07:07:39.675Z",
   "entries": {
     "memory:memory/2026-04-05.md:66:101": {
       "key": "memory:memory/2026-04-05.md:66:101",
@@ -13292,12 +13292,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 395 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T05:58:01.933Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -13305,7 +13305,8 @@
         "2026-04-13",
         "2026-04-14",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -13326,12 +13327,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: - ❌ `exec sleep` after spawn - ❌ `sessions_history` after spawn ### Key Documentation References - `/home/dht/.local/share/fnm/node-versions/v24.14.1/installation/lib/node_modules/openclaw/docs/tools/subagents.md` - `/home/dht/.local/share/fnm/node-versio",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T05:58:01.933Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "0dac2e09ca9b"
       ],
@@ -13339,7 +13340,8 @@
         "2026-04-13",
         "2026-04-14",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "sessions-history",
@@ -17350,37 +17352,6 @@
         "dreams"
       ]
     },
-    "memory:memory/2026-04-13.md:108:127": {
-      "key": "memory:memory/2026-04-13.md:108:127",
-      "path": "memory/2026-04-13.md",
-      "startLine": 108,
-      "endLine": 127,
-      "source": "memory",
-      "snippet": "- Candidate: Assistant: Lazy Push 完成汇报： - **分支**: `issue-498` - **推送提交数**: 32 个 - **结果**: ✅ 推送成功（`9ad1000fd..696372023`） - **当前 task,ready Issues**: 30 个 已达到推送条件（>5 个未推送提交），已推送到远程。 - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:173-173 - recalls: 0 - status: staged - Candidate: User: [cron:1fcb4eb5-52c1-4dd4-8c75-859afbef025c Code Study - 每3小时深度阅读核心代码] 你是一个代码审查员。请深度阅读2个核心模块的代码，理解设计模式。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择2个核心模块（增强） 从以下选择2个深入阅读： 1. notificati - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:174-174 - recalls: 0",
-      "recallCount": 1,
-      "dailyCount": 0,
-      "groundedCount": 0,
-      "totalScore": 0.7792638812851145,
-      "maxScore": 0.7792638812851145,
-      "firstRecalledAt": "2026-04-14T02:29:18.842Z",
-      "lastRecalledAt": "2026-04-14T02:29:18.842Z",
-      "queryHashes": [
-        "2450b7dc3a01"
-      ],
-      "recallDays": [
-        "2026-04-14"
-      ],
-      "conceptTags": [
-        "issue-498",
-        "0.00",
-        "173-173",
-        "home/dht/gh/bin",
-        "gh-token",
-        "openclaw/github-token",
-        "174-174",
-        "candidate"
-      ]
-    },
     "memory:memory/2026-04-13.md:318:322": {
       "key": "memory:memory/2026-04-13.md:318:322",
       "path": "memory/2026-04-13.md",
@@ -17412,37 +17383,6 @@
         "sub-agents"
       ]
     },
-    "memory:memory/2026-04-13.md:243:257": {
-      "key": "memory:memory/2026-04-13.md:243:257",
-      "path": "memory/2026-04-13.md",
-      "startLine": 243,
-      "endLine": 257,
-      "source": "memory",
-      "snippet": "- Candidate: Assistant: 深度研究完成。 --- ## 研究完成摘要 **主题**：危急值通知闭环 — EMR-L6 检验/检查域全链路实现与缺口深度研究 **报告位置**：`docs/research/deep-dives/危急值通知闭环-EMR-L6检验检查域全链路实现与缺口深度研究.md` ### 核心发现 项目危急值通知的**事件骨架和双签工作流已完整实现**（LIS → Notification → CriticalValueHandling → 医师双签），但有 **3 个 P0 缺口**： | # | 缺口 | 说明 | |---|------ - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:231-231 - recalls: 0 - status: staged - Candidate: Assistant: Now I have all the context I need. Let me create the Architecture Issue for the critical value notification gaps. - confidence: 0.00 - evidence: memory/.dreams/session-corpus/2026-04-13.txt:233-233 - recalls: 0 - status: staged - Candidate: Assistant:",
-      "recallCount": 1,
-      "dailyCount": 0,
-      "groundedCount": 0,
-      "totalScore": 0.7508810343691824,
-      "maxScore": 0.7508810343691824,
-      "firstRecalledAt": "2026-04-14T02:33:21.611Z",
-      "lastRecalledAt": "2026-04-14T02:33:21.611Z",
-      "queryHashes": [
-        "42bfb61f4e65"
-      ],
-      "recallDays": [
-        "2026-04-14"
-      ],
-      "conceptTags": [
-        "emr-l6",
-        "检验/检查域全链路实现与缺口深度研究",
-        "0.00",
-        "231-231",
-        "233-233",
-        "candidate",
-        "assistant",
-        "深度"
-      ]
-    },
     "memory:memory/2026-04-14.md:4:4": {
       "key": "memory:memory/2026-04-14.md:4:4",
       "path": "memory/2026-04-14.md",
@@ -17451,19 +17391,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): **Topic**: Analytics服务预测引擎真实实现状态与ML架构缺口",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "deep",
@@ -17484,19 +17425,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): **Key Findings**:",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "deep",
@@ -17516,19 +17458,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): ReadmissionPredictor & LOSPredictor are pure **rule-based engines**, NOT ML; Code comments explicitly state: \"实际生产中应使用LightGBM/XGBoost\"; `ModelVersion` table has zero rows — never written to; Analytics service consumes **no Roc",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "rule-based",
@@ -17549,19 +17492,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): `patient-view` CDS Hook only passes `PatientID`, all other features = zero value; `QualityAlert` completely disconnected from `emr qc_rule_engine`; `medication-prescribe` hook is **empty implementation**",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "patient-view",
@@ -17582,19 +17526,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): **EMR-L6 Impact**: 信息利用域(12域) current estimate: L2-L3, gap ~10-12 points",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "emr-l6",
@@ -17615,19 +17560,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): **Report**: `docs/research/deep-dives/Analytics-Prediction-真实实现状态与ML架构缺失深度研究.md`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "deep",
@@ -17648,19 +17594,20 @@
       "source": "memory",
       "snippet": "Deep Research — Analytics Prediction Engine (09:50): **Commit**: `d594ddb68` on `issue-475`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T02:36:47.407Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "issue-475",
@@ -19346,19 +19293,20 @@
       "endLine": 308,
       "source": "memory",
       "snippet": "- Candidate: 6. **Pre-PR Validation**: go vet / golangci-lint / go test run before push (CI gate) ## Discord Integration - App ID: 1478958720145817732 - Server ID: 1478912306376085586 - Channel ID: 1478967274193948763 (his-orchestrator delivery channel) - User ID: 1097055660279079002 ## Pending Work 1. **Three new capabilities planned**: - scoring-engine (in progress - data structures done) - emr-researcher (planned) - dependency-scheduler (in progress - dependency graph done) 2. **Orchestrator channel issue**: isolated sessions can't announce to webchat. Using Discord channel for delivery instead. 3. **Sub-agent model**: Workers use `minimax-portal/MiniMax-M2.7-highspeed` for sub-agents 4",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-15T02:06:40.381Z",
-      "lastRecalledAt": "2026-04-15T10:05:33.074Z",
+      "lastRecalledAt": "2026-04-18T07:07:39.675Z",
       "queryHashes": [
         "8b1ecc85403b",
         "0dd8d2098945"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "pre-pr",
@@ -19379,19 +19327,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 433 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T02:15:00.158Z",
-      "lastRecalledAt": "2026-04-17T01:51:51.652Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-15",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -34541,37 +34490,6 @@
         "分析"
       ]
     },
-    "memory:memory/2026-04-14.md:333:352": {
-      "key": "memory:memory/2026-04-14.md:333:352",
-      "path": "memory/2026-04-14.md",
-      "startLine": 333,
-      "endLine": 352,
-      "source": "memory",
-      "snippet": "- Candidate: 代码合并（main 分支）: `feat/issue-195-xds-folder-model` — Folder模型、SubmissionSet、SOAP ITI-41; `fix/issue-200-199-198` — import collision 修复 + handler 集成测试; `fix/issue-199-xds-rocketmq-events` — RocketMQ 事件发布; `test/issue-202-xds-unit-tests` — XDS 单元测试覆盖 - confidence: 0.00 - evidence: memory/2026-04-06.md:7-10 - recalls: 0 - status: staged - Candidate: Bug 调查 — CloseFolderHandler/DeprecateFolderHandler: **结论：Bug 不存在。** sub-agent 在 main 分支引用了 feat 分支才有的 handlers，产生误判。feat 分支中这两个 handler 均正确调用了 `repo.Save()`。 - confidence: 0.00 - evidence: memory/2026-04-06.md:13-13 - recalls: 0 - status: staged - Candidate: 定时任务状态: `his-orchestrator`: 连续 5 次 timeout，Discord 投递 unknown; `h",
-      "recallCount": 1,
-      "dailyCount": 0,
-      "groundedCount": 0,
-      "totalScore": 1,
-      "maxScore": 1,
-      "firstRecalledAt": "2026-04-16T01:52:00.946Z",
-      "lastRecalledAt": "2026-04-16T01:52:00.946Z",
-      "queryHashes": [
-        "7613c5323ca8"
-      ],
-      "recallDays": [
-        "2026-04-16"
-      ],
-      "conceptTags": [
-        "feat/issue-195-xds-folder-model",
-        "iti-41",
-        "fix/issue-200-199-198",
-        "test/issue-202-xds-unit-tests",
-        "0.00",
-        "memory/2026-04-06.md",
-        "7-10",
-        "sub-agent"
-      ]
-    },
     "memory:memory/2026-04-15.md:425:426": {
       "key": "memory:memory/2026-04-15.md:425:426",
       "path": "memory/2026-04-15.md",
@@ -38718,6 +38636,5049 @@
         "label",
         "openclaw",
         "tui"
+      ]
+    },
+    "memory:memory/2026-04-17.md:373:376": {
+      "key": "memory:memory/2026-04-17.md:373:376",
+      "path": "memory/2026-04-17.md",
+      "startLine": 373,
+      "endLine": 376,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 846 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:379:381": {
+      "key": "memory:memory/2026-04-17.md:379:381",
+      "path": "memory/2026-04-17.md",
+      "startLine": 379,
+      "endLine": 381,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: - recalls: 0 - status: staged - Candidate: 定时任务状态: `his-orchestrator`: 连续 5 次 timeout，Discord 投递 unknown; `his-fixed-reviewer`: 1 次 timeout; `his-test-coverage`: Discord recipient 缺失错误 - confidence: 0.00 - evidence: memory/2026-04-06.md:16-18 - recalls: 0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "his-orchestrator",
+        "his-fixed-reviewer",
+        "his-test-coverage",
+        "0.00",
+        "memory/2026-04-06.md",
+        "16-18",
+        "possible",
+        "lasting"
+      ]
+    },
+    "memory:memory/2026-04-17.md:390:393": {
+      "key": "memory:memory/2026-04-17.md:390:393",
+      "path": "memory/2026-04-17.md",
+      "startLine": 390,
+      "endLine": 393,
+      "source": "memory",
+      "snippet": "Phase 1 已上线: 增量检测（判断是否有事可做）; 新 Bug/P0/P1 Issue → 自动创建 RISK.md 条目; Issue 关闭 → 自动更新 Risk 状态; P0/P1 超期预警（>14天）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "bug/p0/p1",
+        "risk.md",
+        "p0/p1",
+        "phase",
+        "上线",
+        "增量",
+        "检测",
+        "判断"
+      ]
+    },
+    "memory:memory/2026-04-17.md:394:397": {
+      "key": "memory:memory/2026-04-17.md:394:397",
+      "path": "memory/2026-04-17.md",
+      "startLine": 394,
+      "endLine": 397,
+      "source": "memory",
+      "snippet": "Phase 1 已上线: Risk ←→ Issue 一致性检查; 风险统计自动更新; Discord 结构化摘要（变化时才推送）; 幂等运行（去重检查）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "phase",
+        "上线",
+        "risk",
+        "issue",
+        "一致性",
+        "检查",
+        "风险",
+        "统计"
+      ]
+    },
+    "memory:memory/2026-04-17.md:398:398": {
+      "key": "memory:memory/2026-04-17.md:398:398",
+      "path": "memory/2026-04-17.md",
+      "startLine": 398,
+      "endLine": 398,
+      "source": "memory",
+      "snippet": "Phase 1 已上线: 脚本位置：`~/.openclaw/scripts/skill-enrich-v2.sh`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "phase",
+        "上线",
+        "脚本",
+        "位置",
+        "openclaw",
+        "scripts",
+        "skill",
+        "enrich"
+      ]
+    },
+    "memory:memory/2026-04-17.md:401:403": {
+      "key": "memory:memory/2026-04-17.md:401:403",
+      "path": "memory/2026-04-17.md",
+      "startLine": 401,
+      "endLine": 403,
+      "source": "memory",
+      "snippet": "首次运行结果（04-15 18:22）: 无新增 Bug/P0/P1 Issues; 无已关闭 P0/P1 Issues; 无超期 Risks",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "04-15",
+        "bug/p0/p1",
+        "p0/p1",
+        "首次",
+        "运行",
+        "结果",
+        "新增",
+        "bug"
+      ]
+    },
+    "memory:memory/2026-04-17.md:407:410": {
+      "key": "memory:memory/2026-04-17.md:407:410",
+      "path": "memory/2026-04-17.md",
+      "startLine": 407,
+      "endLine": 410,
+      "source": "memory",
+      "snippet": "仓库远程同步问题（04-15 18:14）: 本地 main 落后远程 94 个 commits（远程有 QA Review、治理更新、深度研究等积压）; 5 个文件冲突（go.work、xds/main.go、xds/go.mod、xds/etc/xds.yaml、xds_repository.go）; 全部采用新版解决：go.work 新增 terminology/fhir-core/fhir-document，xds 端口统一 8110 + /api/v1; 已推送 main 到 origin",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "04-15",
+        "go.work",
+        "xds/main.go",
+        "xds/go.mod",
+        "xds/etc/xds.yaml",
+        "xds-repository.go",
+        "api/v1",
+        "仓库"
+      ]
+    },
+    "memory:memory/2026-04-17.md:414:417": {
+      "key": "memory:memory/2026-04-17.md:414:417",
+      "path": "memory/2026-04-17.md",
+      "startLine": 414,
+      "endLine": 417,
+      "source": "memory",
+      "snippet": "当前活跃 Cron Jobs（10个）: | Job | 频率 | 用途 | 状态 | |-----|------|------|------| | his-orchestrator | 5min | Issue 领取执行 | 正常运行 | | his-issue-worker | 5min | Issue 处理 | 正常运行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "his-orchestrator",
+        "his-issue-worker",
+        "当前",
+        "活跃",
+        "cron",
+        "jobs",
+        "job",
+        "频率"
+      ]
+    },
+    "memory:memory/2026-04-17.md:418:421": {
+      "key": "memory:memory/2026-04-17.md:418:421",
+      "path": "memory/2026-04-17.md",
+      "startLine": 418,
+      "endLine": 421,
+      "source": "memory",
+      "snippet": "当前活跃 Cron Jobs（10个）: | his-fixed-reviewer | 10min | PR 质量审查 | 正常运行 | | his-emr-reviewer | 1hr | EMR 评级审查 | 正常运行 | | his-test-coverage | 1day | 测试覆盖率分析 | 正常运行 | | Skill Enrich | 1day 20:00 | 治理文档自动更新 | ✅ v2.1 运行正常 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "his-fixed-reviewer",
+        "his-emr-reviewer",
+        "his-test-coverage",
+        "v2.1",
+        "当前",
+        "活跃",
+        "cron",
+        "jobs"
+      ]
+    },
+    "memory:memory/2026-04-17.md:422:425": {
+      "key": "memory:memory/2026-04-17.md:422:425",
+      "path": "memory/2026-04-17.md",
+      "startLine": 422,
+      "endLine": 425,
+      "source": "memory",
+      "snippet": "当前活跃 Cron Jobs（10个）: | Code Study | 1day 09:00 | 核心模块深度阅读 | 正常运行 | | Dependency Check | 1day 10:00 | 依赖更新检查 | 正常运行 | | QA Review | 3hr | 代码审查 | 正常运行 | | Security Scan | 1day 10:00 | 安全扫描 | 正常运行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "当前",
+        "活跃",
+        "cron",
+        "jobs",
+        "code",
+        "study",
+        "1day",
+        "核心"
+      ]
+    },
+    "memory:memory/2026-04-17.md:430:433": {
+      "key": "memory:memory/2026-04-17.md:430:433",
+      "path": "memory/2026-04-17.md",
+      "startLine": 430,
+      "endLine": 433,
+      "source": "memory",
+      "snippet": "Code Study（patient + emr 模块）: `patient-aggregate-ddd-deep-dive.md`：快照+事件双写架构、PII加密、CQRS分离; `emr-medical-record-state-machine-analysis.md`：4级状态机（draft→finalized→qc_review→archived）; 新建 Issue #576：patient 领域事件违反最小可用原则; 新建 Issue #577：patient MergeFrom/MarkMerged 跨聚合根无 Saga 协调",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "qc-review",
+        "mergefrom/markmerged",
+        "code",
+        "study",
+        "patient",
+        "emr",
+        "aggregate",
+        "ddd"
+      ]
+    },
+    "memory:memory/2026-04-17.md:434:436": {
+      "key": "memory:memory/2026-04-17.md:434:436",
+      "path": "memory/2026-04-17.md",
+      "startLine": 434,
+      "endLine": 436,
+      "source": "memory",
+      "snippet": "Code Study（patient + emr 模块）: 新建 Issue #578：EMR 操作时间校验 nil 分支复杂; 新建 Issue #579：EMR ImagingReport Amended 状态未实现; 已有关联 Issue：#574（EMR Finalize() 过长）、#569（EMR PatientDischarged JSON 拼接）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "code",
+        "study",
+        "patient",
+        "emr",
+        "新建",
+        "issue",
+        "操作",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-17.md:439:441": {
+      "key": "memory:memory/2026-04-17.md:439:441",
+      "path": "memory/2026-04-17.md",
+      "startLine": 439,
+      "endLine": 441,
+      "source": "memory",
+      "snippet": "Test Deep Dive（Blood Module）: 新增 `command_handler_test.go`（694行，25用例）; 新增 `blood_handler_test.go`（735行，26用例）; 测试覆盖从 0→80%（HTTP Handler 层）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "command-handler-test.go",
+        "blood-handler-test.go",
+        "test",
+        "deep",
+        "dive",
+        "blood",
+        "module",
+        "新增"
+      ]
+    },
+    "memory:memory/2026-04-17.md:444:445": {
+      "key": "memory:memory/2026-04-17.md:444:445",
+      "path": "memory/2026-04-17.md",
+      "startLine": 444,
+      "endLine": 445,
+      "source": "memory",
+      "snippet": "QA Review 进展: QA Review #37/38：评分 8.5/10 ✅，无重大问题; blood 测试文件（51用例）待提交",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "37/38",
+        "8.5/10",
+        "review",
+        "进展",
+        "8.5",
+        "重大",
+        "问题",
+        "blood"
+      ]
+    },
+    "memory:memory/2026-04-17.md:448:449": {
+      "key": "memory:memory/2026-04-17.md:448:449",
+      "path": "memory/2026-04-17.md",
+      "startLine": 448,
+      "endLine": 449,
+      "source": "memory",
+      "snippet": "Dependency Check: Go 依赖：✅ 已是最新; 前端依赖：`typescript@5.9.3 → 6.0.2`，`@vue/tsconfig@0.5.1 → 0.9.1`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "5.9.3",
+        "6.0.2",
+        "vue/tsconfig",
+        "0.5.1",
+        "0.9.1",
+        "dependency",
+        "check",
+        "依赖"
+      ]
+    },
+    "memory:memory/2026-04-17.md:452:453": {
+      "key": "memory:memory/2026-04-17.md:452:453",
+      "path": "memory/2026-04-17.md",
+      "startLine": 452,
+      "endLine": 453,
+      "source": "memory",
+      "snippet": "Task Manager: P0: 30, P1: 30, Bug: 14, Critical: 0, Tech-debt: 6; task,ready 标签总数：30",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "tech-debt",
+        "task",
+        "manager",
+        "bug",
+        "critical",
+        "tech",
+        "debt",
+        "ready"
+      ]
+    },
+    "memory:memory/2026-04-17.md:457:460": {
+      "key": "memory:memory/2026-04-17.md:457:460",
+      "path": "memory/2026-04-17.md",
+      "startLine": 457,
+      "endLine": 460,
+      "source": "memory",
+      "snippet": "待处理问题: **`~/.openclaw/github-token` 文件不存在** — GH CLI 用缓存 token 仍可工作，但 Workspace Sync 失败，建议检查; **fhir-core 测试覆盖率 0%** — P1 问题持续跟踪; **blood 测试文件待提交** — 51 用例已生成但未 commit; **acpx 已清理** — 无本地编程客户端，配置已移除",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "openclaw/github-token",
+        "fhir-core",
+        "处理",
+        "问题",
+        "openclaw",
+        "github",
+        "token",
+        "文件"
+      ]
+    },
+    "memory:memory/2026-04-17.md:463:464": {
+      "key": "memory:memory/2026-04-17.md:463:464",
+      "path": "memory/2026-04-17.md",
+      "startLine": 463,
+      "endLine": 464,
+      "source": "memory",
+      "snippet": "Discord 集成: Channel ID: 1478967274193948763; Skill Enrich v2.1 Discord 摘要：变化时才推送，避免噪音",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "v2.1",
+        "discord",
+        "集成",
+        "channel",
+        "skill",
+        "enrich",
+        "摘要",
+        "变化"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:135:135": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:135:135",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 135,
+      "endLine": 135,
+      "source": "memory",
+      "snippet": "User: 评审当前所有的Cron任务是否合理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "评审",
+        "当前",
+        "所有",
+        "cron",
+        "任务",
+        "是否",
+        "合理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:136:136": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:136:136",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 136,
+      "endLine": 136,
+      "source": "memory",
+      "snippet": "User: 为初学者讲解 ◇ Agents: main (default) Heartbeat interval: 30m (main) Session store (main): /home/dht/.openclaw/agents/main/sessions/sessions.json (73 entries) - agent:main:cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 (33m ago) - agent:main:cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3:r",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht",
+        "user",
+        "初学者",
+        "讲解",
+        "agents",
+        "heartbeat",
+        "interval",
+        "30m"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:137:137": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:137:137",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 137,
+      "endLine": 137,
+      "source": "memory",
+      "snippet": "User: 我本地没有Codex之类的客户端acpx对我有用吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "本地",
+        "没有",
+        "codex",
+        "之类",
+        "客户",
+        "acpx",
+        "有用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:138:138": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:138:138",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 138,
+      "endLine": 138,
+      "source": "memory",
+      "snippet": "User: 清理掉acpx的配置吧",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "清理",
+        "acpx",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:139:139": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:139:139",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 139,
+      "endLine": 139,
+      "source": "memory",
+      "snippet": "User: Skill Enrich 为什么不需要了呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "skill",
+        "enrich",
+        "为什么",
+        "不需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:140:140": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:140:140",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 140,
+      "endLine": 140,
+      "source": "memory",
+      "snippet": "User: 我们可以建立结构化的治理文档吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "我们",
+        "可以",
+        "建立",
+        "结构",
+        "治理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:141:141": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:141:141",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 141,
+      "endLine": 141,
+      "source": "memory",
+      "snippet": "User: 需要增强，请查询最佳实践结合优秀方案制定增强计划",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "需要",
+        "增强",
+        "查询",
+        "最佳",
+        "实践",
+        "结合",
+        "优秀"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:142:142": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:142:142",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 142,
+      "endLine": 142,
+      "source": "memory",
+      "snippet": "Assistant: 好的，开始实现 Phase 1。先确认当前 cron 作业完整 ID：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "开始",
+        "实现",
+        "phase",
+        "确认",
+        "当前",
+        "cron"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:143:143": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:143:143",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 143,
+      "endLine": 143,
+      "source": "memory",
+      "snippet": "Assistant: 先设计脚本结构，然后一次性更新：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "设计",
+        "脚本",
+        "结构",
+        "然后",
+        "一次",
+        "更新"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:144:144": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:144:144",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 144,
+      "endLine": 144,
+      "source": "memory",
+      "snippet": "Assistant: 现在我对格式了如指掌，开始写增强脚本。先创建增强版的 Skill Enrich：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "格式",
+        "了如指掌",
+        "开始",
+        "增强",
+        "脚本",
+        "创建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:145:145": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:145:145",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 145,
+      "endLine": 145,
+      "source": "memory",
+      "snippet": "Assistant: 脚本太长不适合内嵌 message，需要保存为文件后通过 cron 调用：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "脚本",
+        "太长",
+        "适合",
+        "message",
+        "需要",
+        "保存",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:146:146": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:146:146",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 146,
+      "endLine": 146,
+      "source": "memory",
+      "snippet": "Assistant: 现在更新 cron 作业，payload 改为调用脚本文件：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "更新",
+        "cron",
+        "作业",
+        "payload",
+        "脚本",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:147:147": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:147:147",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 147,
+      "endLine": 147,
+      "source": "memory",
+      "snippet": "User: 评审当前所有的Cron任务是否合理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "评审",
+        "当前",
+        "所有",
+        "cron",
+        "任务",
+        "是否",
+        "合理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:148:148": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:148:148",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 148,
+      "endLine": 148,
+      "source": "memory",
+      "snippet": "User: 为初学者讲解 ◇ Agents: main (default) Heartbeat interval: 30m (main) Session store (main): /home/dht/.openclaw/agents/main/sessions/sessions.json (73 entries) - agent:main:cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 (33m ago) - agent:main:cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3:r",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht",
+        "user",
+        "初学者",
+        "讲解",
+        "agents",
+        "heartbeat",
+        "interval",
+        "30m"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:149:149": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:149:149",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 149,
+      "endLine": 149,
+      "source": "memory",
+      "snippet": "User: 我本地没有Codex之类的客户端acpx对我有用吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "本地",
+        "没有",
+        "codex",
+        "之类",
+        "客户",
+        "acpx",
+        "有用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:150:150": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:150:150",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 150,
+      "endLine": 150,
+      "source": "memory",
+      "snippet": "User: 清理掉acpx的配置吧",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "清理",
+        "acpx",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:151:151": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:151:151",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 151,
+      "endLine": 151,
+      "source": "memory",
+      "snippet": "User: Skill Enrich 为什么不需要了呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "skill",
+        "enrich",
+        "为什么",
+        "不需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:152:152": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:152:152",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 152,
+      "endLine": 152,
+      "source": "memory",
+      "snippet": "User: 我们可以建立结构化的治理文档吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "我们",
+        "可以",
+        "建立",
+        "结构",
+        "治理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:153:153": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:153:153",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 153,
+      "endLine": 153,
+      "source": "memory",
+      "snippet": "User: 需要增强，请查询最佳实践结合优秀方案制定增强计划",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "需要",
+        "增强",
+        "查询",
+        "最佳",
+        "实践",
+        "结合",
+        "优秀"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:154:154": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:154:154",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 154,
+      "endLine": 154,
+      "source": "memory",
+      "snippet": "Assistant: 好的，开始实现 Phase 1。先确认当前 cron 作业完整 ID：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "开始",
+        "实现",
+        "phase",
+        "确认",
+        "当前",
+        "cron"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:155:155": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:155:155",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 155,
+      "endLine": 155,
+      "source": "memory",
+      "snippet": "Assistant: 先设计脚本结构，然后一次性更新：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "设计",
+        "脚本",
+        "结构",
+        "然后",
+        "一次",
+        "更新"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:156:156": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:156:156",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 156,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "Assistant: 现在我对格式了如指掌，开始写增强脚本。先创建增强版的 Skill Enrich：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "格式",
+        "了如指掌",
+        "开始",
+        "增强",
+        "脚本",
+        "创建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:157:157": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:157:157",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 157,
+      "endLine": 157,
+      "source": "memory",
+      "snippet": "Assistant: 脚本太长不适合内嵌 message，需要保存为文件后通过 cron 调用：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "脚本",
+        "太长",
+        "适合",
+        "message",
+        "需要",
+        "保存",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:158:158": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:158:158",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 158,
+      "endLine": 158,
+      "source": "memory",
+      "snippet": "Assistant: 现在更新 cron 作业，payload 改为调用脚本文件：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "更新",
+        "cron",
+        "作业",
+        "payload",
+        "脚本",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: [cron:87094917-4309-4ad1-8d60-669e72d4d043 Workspace Sync - 每天19:00同步到openclaw-workspace] 将工作区同步到 openclaw-workspace 仓库。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) WORKSPACE=/home/dht/.openclaw/workspace TARGET_REPO=DhtIsCoding/openclaw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "00同步到openclaw-workspace",
+        "openclaw-workspace",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "home/dht",
+        "openclaw/workspace",
+        "target-repo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: ✅ Workspace Sync 完成 **同步内容:** - 修改 6 个文件 - 新增 4 个文件 - 共 5577 行变更 **提交:** `a445eee` | master → master",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "sync",
+        "完成",
+        "同步",
+        "内容",
+        "修改",
+        "文件",
+        "新增"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [cron:37f781d5-bb1b-41f2-805a-2d3743015ca5 Security Scan - 每天运行安全检查] 运行安全扫描，检查敏感信息泄露。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo === Security Scan 开始 === echo 时间: $(date) # 检查敏感信息 echo ===",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "37f781d5",
+        "bb1b",
+        "41f2"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: **安全扫描报告 — 2026-04-17 10:02** ✅ **总体结果：未发现严重安全问题** --- **敏感信息检查** - 硬编码密码：无（organization/main.go 中的 `<PASSWORD>` 仅为 flag 帮助文本中的示例占位符，非真实密钥） - 硬编码 API Key：无 - 硬编码 Secret：无 **SQL 注入检查** - 未发现 `fmt.Sprintf` 拼接 SQL 语句 - 服务使用 ORM（GORM）进行数据库操作 **JWT 安全检查** - 发现 JWT 解析实现：`aut",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "organization/main.go",
+        "fmt.sprintf",
+        "assistant",
+        "安全",
+        "扫描",
+        "报告",
+        "总体",
+        "结果"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: @猫猫 你在吗",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "你在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: @猫猫 你在吗",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user",
+        "你在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 在的 👋 有什么事？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "什么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成 ⚠️** - `~/.openclaw/github-token` 文件不存在，GH_TOKEN 为空 - P0: 30, P1: 30, Bug: 14 — 共 104 个 Issues 未被标记 - task,ready 总数仍为 30（无变化） 请确认 GitHub Token 配置后再运行，或手动补充： ```bash echo \"your-github-token\" > ~/.openclaw/github-token ```",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "openclaw/github-token",
+        "gh-token",
+        "your-github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** - **时间:** 2026-04-17 10:45 (Asia/Shanghai) - **检测到待处理 Issues:** - P0: 30 个 - P1: 30 个 - Bug: 14 个 - critical / tech-debt: 未检出 - **已批量添加 task,ready 标签** - **当前 task,ready 标签总数:** 30 > ⚠️ 注意: `~/.openclaw/github-token` 文件不存在，但 gh cli 仍成功获取了数据（可能使用了已",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "tech-debt",
+        "openclaw/github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: [cron:7173fd59-bca0-4c7d-943d-c462bb2101f6 QA Review - 每3小时自动化代码审查] 你是一个AI代码审查员。请对最近提交的代码进行自动化审查，并更新需求追踪矩阵。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：检查最近提交 echo \"=== 最近提交 ===\" git log",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "7173fd59",
+        "bca0",
+        "4c7d"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: Now let me create the review report and update the traceability matrix.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "create",
+        "the",
+        "review",
+        "report",
+        "update"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: 🔍 **QA 自动化审查完成** **审查时间**：2026-04-17 18:11 **审查提交**：c32263583 **评分**：9/10 **是否可合并**：✅ 是（文档类提交） **发现问题**：0 个新问题 **延续问题**：3 个（2 P3 + 1 P2，仍自 QA #39 延续） --- **审查摘要** 本次审查 `c32263583` 两个 Code Study 文档： - **order-multi-aggregate-cqrs-deep-dive.md** (263行) — 分析 Order 医嘱服务多聚",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "9/10",
+        "assistant",
+        "自动",
+        "审查",
+        "完成",
+        "时间",
+        "提交",
+        "c32263583"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: **=== Task Manager 执行报告 ===** 时间: 2026-04-17 17:48 (CST) **统计：** - P0: 30 个 - P1: 30 个 - Bug: 14 个 **结果：** - `task,ready` 已标记的 open issues 总量: **30 个** - 抽检 #564 (P0) — 已有 `task`、`ready` 标签 所有 P0/P1/bug/critical/tech-debt Issues 的 `task,ready` 标记已完成（或之前已标记）。✅",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "报告",
+        "时间",
+        "cst"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行报告** 时间: 2026-04-17 22:51 **Issue 统计:** - P0: 30, P1: 30, Bug: 14 - Critical/Tech-debt: 无 ⚠️ **注意:** `~/.openclaw/github-token` 文件不存在，GH_TOKEN 为空，部分 `gh` 命令可能静默失败。 **task,ready 标签总数:** 30 如需确认实际添加情况，请先配置 `~/.openclaw/github-token`。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "critical/tech-debt",
+        "openclaw/github-token",
+        "gh-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "报告"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** ✓ | 类别 | 数量 | |------|------| | P0 | 30 | | P1 | 30 | | Bug | 14 | **备注：** `~/.openclaw/github-token` 文件不存在，但 `gh` 使用了其他已配置的认证方式（如 `gh auth status`），所以命令正常执行。未显示 \"添加 task,ready\" 是因为： - 这些 issue 可能已包含 `task,ready` 标签（或格式不对 —— `task,ready` 会被当作单标签而非",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "openclaw/github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "类别",
+        "数量"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "User: [cron:8a28d0d7-13ee-4cfc-ad45-d0da4ecab5ea Test Deep Dive - 每天详细测试关键模块] 你是一个测试工程师。请为一个关键模块写详细测试，不只是覆盖率，要测试边界条件和错误处理。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择一个关键模块 从以下选择一个： 1. noti",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "8a28d0d7",
+        "13ee",
+        "4cfc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: 现有 CV 测试已经非常全面。让我选择一个还未深度测试的模块——`blood` 输血服务，写更聚焦的测试报告。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现有",
+        "测试",
+        "已经",
+        "非常",
+        "全面",
+        "选择",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: Now let me write comprehensive tests for the Blood module:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "write",
+        "comprehensive",
+        "tests",
+        "the",
+        "blood"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: 测试报告已生成，现在通过 Discord 发送摘要：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "测试",
+        "报告",
+        "生成",
+        "现在",
+        "通过",
+        "discord",
+        "发送"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: 任务完成。 ## 汇总 **本次为 Blood 输血服务模块编写了详细测试：** - **测试文件**：`backend/services/blood/domain/model/blood_request_test.go`（新增） - **测试用例数**：33个 - **测试报告**：`docs/testing/2026-04-17-Blood-Module-Test-Report.md` ### 测试覆盖 | 类别 | 数量 | 关键场景 | |------|------|----------| | 正常流程 | 3 | 全流程闭",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "任务",
+        "完成",
+        "本次",
+        "blood",
+        "输血",
+        "服务",
+        "编写"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 09:56:14 GMT+8] Exec completed (gentle-r, code 0) :: gh go not found /home/dht/go/go/bin/go An async command you ran earlier has completed. The result is shown in the system messages above. Handle the result internally. Do not relay it to the",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "gentle-r",
+        "home/dht/go/go/bin/go",
+        "user",
+        "system",
+        "untrusted",
+        "gmt",
+        "exec",
+        "completed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: （Go 路径在 `/home/dht/go/go/bin/go`，之前查找时留的进程已结束，不影响已完成的工作。）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/go/go/bin/go",
+        "assistant",
+        "路径",
+        "home",
+        "dht",
+        "bin",
+        "之前",
+        "查找"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "User: [cron:caa08af3-968e-48f1-bfe1-e49622c4ab1d Dependency Check - 每天检查过期依赖] 检查项目依赖更新。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo === Dependency Check 开始 === echo 时间: $(date) # 检查 Go 依赖 echo ===",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:caa08af3",
+        "968e",
+        "48f1",
+        "bfe1"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: **Dependency Check 完成** ✅ - 检查时间: 2026-04-17 09:56 (Asia/Shanghai) - 检查范围: 39 个 Go 模块 - **结果: 所有依赖已是最新，无可更新版本**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "assistant",
+        "dependency",
+        "check",
+        "完成",
+        "检查",
+        "时间",
+        "asia"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 09:59:40 GMT+8] Exec completed (oceanic-, code 0) :: vices/imaging === === ./backend/services/order === === ./backend/services/surgery === === ./backend/services/nursing === === ./backend/services/patient === === ./backend/services/… An async",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "vices/imaging",
+        "backend/services/order",
+        "backend/services/surgery",
+        "backend/services/nursing",
+        "backend/services/patient",
+        "backend/services",
+        "user",
+        "system"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "User: [cron:7173fd59-bca0-4c7d-943d-c462bb2101f6 QA Review - 每3小时自动化代码审查] 你是一个AI代码审查员。请对最近提交的代码进行自动化审查，并更新需求追踪矩阵。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：检查最近提交 echo \"=== 最近提交 ===\" git log",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "7173fd59",
+        "bca0",
+        "4c7d"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "Assistant: Now I have enough context to compile the review. The commit `c32263583` adds two Code Study documents (560 lines) analyzing order and imaging services' architecture. Let me create the report and update the traceability matrix.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "enough",
+        "context",
+        "compile",
+        "the",
+        "review",
+        "commit"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "Assistant: 现在生成审查报告并更新追踪矩阵：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "生成",
+        "审查",
+        "报告",
+        "更新",
+        "追踪",
+        "矩阵"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: Discord token 未配置（`channels.discord.token` 缺失），无法发送消息。审查报告已本地完成。 --- **QA Review #40 完成摘要：** ``` 🔍 QA 自动化审查完成 审查时间：2026-04-17 12:08 审查提交：c32263583 评分：9/10 是否可合并：是 发现问题：3个 - 🔴 P2 x1（延续）：blood_request.go CompleteTransfusionUnit 领域逻辑缺陷 - 🟡 P3 x2（新增）：#581 MedicalOrderSe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "channels.discord.token",
+        "9/10",
+        "blood-request.go",
+        "assistant",
+        "discord",
+        "token",
+        "配置",
+        "缺失"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: Task Manager 执行完成，汇总如下： **时间:** 2026-04-17 12:47 (CST) **Issue 统计:** - P0: 30, P1: 30, Bug: 14 - 另有 critical 和 tech-debt 标签的 issue **task,ready 标记结果:** - 当前 open issue 中带 `task,ready` 标签的总数: **30** **备注:** GH_TOKEN 文件未找到（`~/.openclaw/github-token`），但 gh CLI 仍读取到了 issue",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "tech-debt",
+        "gh-token",
+        "openclaw/github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "User: [cron:c2de9a58-19a6-4968-b44f-7a921570065c Skill Enrich - 每天丰富知识库] 执行 Skill Enrich v2.1 Phase 1 脚本。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) bash ~/.openclaw/scripts/skill-enrich-v2.sh echo \"Exit code: $?\" Current time: Friday, Apri",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "v2.1",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:c2de9a58",
+        "19a6",
+        "b44f"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: Skill Enrich v2.1 Phase 1 执行完毕，Exit code: **0**。 **执行摘要：** - ✅ 无新增 Bug/P0/P1 Issues - ✅ 无新增关闭的 P0/P1 Issues - ✅ 无超期 Risks - ✅ Risk ←→ Issue 一致性检查通过 - ✅ RISK.md 风险统计已更新 - ✅ 已提交并推送 10 个文件（+2406 / -1102 行），含新增 `cdss-analysis.md`、`emr-analysis.md`、两份 review 文档、`Blood-Modul",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "v2.1",
+        "bug/p0/p1",
+        "p0/p1",
+        "risk.md",
+        "cdss-analysis.md",
+        "emr-analysis.md",
+        "blood-modul",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 20:03:26 GMT+8] Exec completed (marine-b, code 0) :: -analysis.md create mode 100644 docs/reviews/2026-04-17-12.md create mode 100644 docs/reviews/2026-04-17-18.md create mode 100644 docs/testing/2026-04-17-Blood-Module-Test-Report.… An async",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "marine-b",
+        "analysis.md",
+        "docs/reviews/2026-04-17-12.md",
+        "docs/reviews/2026-04-17-18.md",
+        "user",
+        "system",
+        "untrusted",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "Assistant: 已处理，无需额外操作。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "处理",
+        "额外",
+        "操作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "User: [cron:7173fd59-bca0-4c7d-943d-c462bb2101f6 QA Review - 每3小时自动化代码审查] 你是一个AI代码审查员。请对最近提交的代码进行自动化审查，并更新需求追踪矩阵。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：检查最近提交 echo \"=== 最近提交 ===\" git log",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "7173fd59",
+        "bca0",
+        "4c7d"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "Assistant: Now let me create the review report based on my analysis:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "create",
+        "the",
+        "review",
+        "report",
+        "based"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "Assistant: 现在更新需求追踪矩阵：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "更新",
+        "需求",
+        "追踪",
+        "矩阵"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "Assistant: 🔍 **QA 自动化审查完成** **审查时间**：2026-04-17 21:07 **审查提交**：`f79d441b9`（每日治理更新） **评分**：8.5/10 **是否可合并**：✅ 是（本次为文档+测试重构） **发现问题**：1个延续P2 **审查摘要**： - `blood_request_test.go` 重构（+2406/-1102行）：Scenario模式测试，结构清晰，覆盖全面 - 新增 CDSS 模块分析文档（9/10 ✅） - 🟡 确认团队是否统一中文测试方法名风格 **🔴 延续问题**： `bl",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "8.5/10",
+        "blood-request-test.go",
+        "9/10",
+        "assistant",
+        "自动",
+        "审查",
+        "完成",
+        "时间"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 21:09:03 GMT+8] Exec failed (gentle-g, signal SIGKILL) :: go not found An async command you ran earlier has completed. The result is shown in the system messages above. Handle the result internally. Do not relay it to the user unless explicit",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "gentle-g",
+        "user",
+        "system",
+        "untrusted",
+        "gmt",
+        "exec",
+        "failed",
+        "gentle"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "Assistant: 这是之前查找 `go` 命令的后台进程被终止的通知，不影响审查结果。审查报告已生成完毕。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "之前",
+        "查找",
+        "命令",
+        "后台",
+        "进程",
+        "终止",
+        "通知"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** | 项目 | 数量 | |------|------| | P0 | 30 | | P1 | 30 | | Bug | 14 | | task,ready (总计) | 30 | ⚠️ **注意:** `~/.openclaw/github-token` 文件不存在，`gh` 可能使用了其他认证方式。结果仅供参考。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "openclaw/github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "项目",
+        "数量"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "User: [cron:1fcb4eb5-52c1-4dd4-8c75-859afbef025c Code Study - 每3小时深度阅读核心代码] 你是一个代码审查员。请深度阅读2个核心模块的代码，理解设计模式。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择2个核心模块（增强） 从以下选择2个深入阅读： 1. notificati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "1fcb4eb5",
+        "52c1",
+        "4dd4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "Assistant: 我选择 **notification（危急值处理）** 和 **emr（病历文档）** 两个核心模块进行深度分析。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "选择",
+        "notification",
+        "危急",
+        "处理",
+        "emr",
+        "病历",
+        "核心"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: 现在我来创建代码分析文档：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "我来",
+        "创建",
+        "代码",
+        "分析"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "Assistant: 现在检查是否有值得创建 Issue 的优化点：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "检查",
+        "是否",
+        "值得",
+        "创建",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "Assistant: 发现一个明确的优化点：危急值超时查询缺少数据库索引。让我创建 Issue：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "发现",
+        "一个",
+        "明确",
+        "危急",
+        "查询",
+        "缺少",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "Assistant: 代码分析完成。主要成果： ## 📋 本次 Code Study 成果 ### 深度分析的 2 个模块 **1. notification（危急值处理）** - 聚合根 `CriticalValueHandling` 实现富领域模型 - 双重确认状态机：护士确认 → 医师双签 - 超时升级机制：Normal → NurseExpired → DoctorExpired → Escalated - 事件溯源：每个状态变更发布领域事件 **2. emr（病历文档）** - 聚合根：`MedicalRecord`、`FrontPage`、",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "代码",
+        "分析",
+        "完成",
+        "主要",
+        "成果",
+        "本次",
+        "code"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:74:74": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:74:74",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 74,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "User: [cron:1fcb4eb5-52c1-4dd4-8c75-859afbef025c Code Study - 每3小时深度阅读核心代码] 你是一个代码审查员。请深度阅读2个核心模块的代码，理解设计模式。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择2个核心模块（增强） 从以下选择2个深入阅读： 1. notificati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "1fcb4eb5",
+        "52c1",
+        "4dd4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:75:75": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:75:75",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 75,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "Assistant: Now let me deeply read the core domain models to understand the design patterns.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "deeply",
+        "read",
+        "the",
+        "core",
+        "domain"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:76:76": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:76:76",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 76,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "Assistant: Now let me ensure the docs directory exists and create the code analysis documents.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "ensure",
+        "the",
+        "docs",
+        "directory",
+        "exists"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "Assistant: Now let me check the GitHub configuration and create an improvement issue for the P0 bug I found:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "check",
+        "the",
+        "github",
+        "configuration",
+        "create"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: Now let me send the Discord notification with the code study summary:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "send",
+        "the",
+        "discord",
+        "notification",
+        "code"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "Assistant: 代码分析任务已完成。以下是执行摘要： ## ✅ 完成内容 ### 1. 深度分析了两个核心模块 **EMR 病历首页 (`emr` 服务)** - 分析了 `MedicalRecord` 聚合根设计 - 绘制了完整的状态机图：Draft → Finalized → QC_Review → Archived（含退回路径） - 分析了领域事件驱动机制（eventstore + eventbus 双层架构） - 识别了 JSON 序列化、状态机注释缺失等可优化点 **Order 医嘱服务 (`order` 服务)** - 分析了 `Med",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "qc-review",
+        "assistant",
+        "代码",
+        "分析",
+        "任务",
+        "完成",
+        "以下",
+        "执行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** ✓ **时间:** 2026-04-17 19:49 **获取到的 Issues:** - P0: 30 个 - P1: 30 个 - Bug: 14 个 **标记 task,ready:** 无新增（可能都已标记过了） **汇总:** 当前 open 状态且带有 task,ready 标签的 Issues 共 **30** 个",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "时间",
+        "获取",
+        "issues"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** ✅ | 类别 | 数量 | |------|------| | P0 | 30 | | P1 | 30 | | Bug | 14 | | **当前 task,ready 总数** | **30** | 所有 P0/P1/Bug 标签的 open issues 都已确认。无需额外操作（issues 可能已拥有 task,ready 标签）。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "类别",
+        "数量"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-17 21:50:37 GMT+8] Exec completed (mellow-n, code 0) :: cat: /home/dht/.openclaw/github-token: *** such file or directory === Task Manager 开始 === 时间: Fri Apr 17 21:50:06 CST 2026 === 获取 Issues === P0: 30, P1: 30, Bug: 14 === 标记 task,rea… An asyn",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "mellow-n",
+        "home/dht",
+        "openclaw/github-token",
+        "user",
+        "system",
+        "untrusted",
+        "gmt",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** - 时间: 2026-04-17 11:46 AM (Asia/Shanghai) - P0: 30, P1: 30, Bug: 14 - task,ready 标签总数: 30 - ⚠️ GitHub Token 未找到（`~/.openclaw/github-token`），标签添加步骤未执行（无写权限验证）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "openclaw/github-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "时间"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "User: [cron:f8be1b88-b205-40e8-a862-26e519dcf971 Documentation Update - 每天更新项目文档] 更新项目文档。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo === Documentation Update 开始 === echo 时间: $(date) # 检查 README 是",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f8be1b88",
+        "b205",
+        "40e8",
+        "a862"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "Assistant: **Documentation Update 完成** | 2026-04-17 18:03 **检查结果：** | 项目 | 状态 | |------|------| | README.md | ✅ 存在，共 275 行 | | docs/api/ | ❌ 目录不存在 | | docs/*.md 文件 | ✅ 共 20 个文档文件 | | 较新文档 | 无需 git add | **最近文档提交（5条）：** - `c3226358` docs: add Code Study - order & imaging deep anal",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "readme.md",
+        "docs/api",
+        "assistant",
+        "documentation",
+        "update",
+        "完成",
+        "检查",
+        "结果"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "User: [cron:1fcb4eb5-52c1-4dd4-8c75-859afbef025c Code Study - 每3小时深度阅读核心代码] 你是一个代码审查员。请深度阅读2个核心模块的代码，理解设计模式。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择2个核心模块（增强） 从以下选择2个深入阅读： 1. notificati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "1fcb4eb5",
+        "52c1",
+        "4dd4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "Assistant: 好的，选择 **order** 和 **imaging** 两个核心模块进行深度分析。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "选择",
+        "order",
+        "imaging",
+        "核心",
+        "进行",
+        "深度"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "Assistant: Now let me create the improvement issues:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "create",
+        "the",
+        "improvement",
+        "issues"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "Assistant: Now sending Discord summary:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "sending",
+        "discord",
+        "summary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "Assistant: Code Study 完成 ✓ --- ## 📊 Code Study — 2026-04-17 **深度阅读了两个核心模块** --- ### 模块①：**Order 医嘱服务** — 多聚合根 + CQRS 架构 **分析文档**: `docs/research/code-studies/order-multi-aggregate-cqrs-deep-dive.md` **核心发现**： - 单一服务内管理 3 个聚合根：`MedicalOrder`（药品/治疗）、`ImagingOrder`（影像申请）、`LabOrder`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "药品/治疗",
+        "assistant",
+        "code",
+        "study",
+        "完成",
+        "深度",
+        "阅读",
+        "核心"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:1fcb4eb5-52c1-4dd4-8c75-859afbef025c Code Study - 每3小时深度阅读核心代码] 你是一个代码审查员。请深度阅读2个核心模块的代码，理解设计模式。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：选择2个核心模块（增强） 从以下选择2个深入阅读： 1. notificati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "1fcb4eb5",
+        "52c1",
+        "4dd4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Now let me look at the infrastructure and repository layers:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "look",
+        "the",
+        "infrastructure",
+        "repository",
+        "layers"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Now let me file the most significant improvement issue I found — the `DoctorAck` bypass in critical value handling:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "the",
+        "significant",
+        "improvement",
+        "issue",
+        "found"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Issue 创建成功（#585）。现在汇报 Discord：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "issue",
+        "创建",
+        "成功",
+        "现在",
+        "汇报",
+        "discord"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: ## Code Study 完成 ### 本次深度阅读模块 **1. notification/cv（危急值处理）** - 聚合根：`CriticalValueHandling`，管理从通知创建到医师处理完成的完整生命周期 - 状态机：多维状态（`NurseAckAt`、`DoctorAckAt`、`Outcome`、`TimeoutLevel`）组合驱动 - 事件：7种领域事件含 Schema 版本控制 - 关键发现：⚠️ `DoctorAck` 不校验护士是否先确认，存在双人核查绕过漏洞 → 已建 Issue #585 **2.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "notification/cv",
+        "assistant",
+        "code",
+        "study",
+        "完成",
+        "本次",
+        "深度",
+        "阅读"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: **Task Manager 执行完成** ✓ | 标签 | 数量 | |------|------| | P0 | 30 | | P1 | 30 | | Bug | 14 | **task,ready 标签总数：** 30 ⚠️ 注意：`~/.openclaw/github-token` 文件不存在，GH_TOKEN 为空。命令可能依赖 gh 自身已配置的认证（如 `gh auth status`），如遇认证问题请检查。 --- ⏰ 运行时长：< 1s | 12:52 AM",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "openclaw/github-token",
+        "gh-token",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "标签"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [cron:f01f04f6-0bf4-4a33-8f5f-a4ce3ebacce3 Task Manager - 任务标记（仅 task,ready）] 你是一个任务管理员。请为 P0/P1/Bug/critical/tech-debt Issues 添加 task,ready 标签。 export PATH=/home/dht/gh/bin:$PATH export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS echo \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "p0/p1/bug/critical/tech-debt",
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron:f01f04f6",
+        "0bf4",
+        "4a33"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: GH_TOKEN 文件不存在导致 `gh issue edit` 静默失败了。需要先配置 token 再重试。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "gh-token",
+        "assistant",
+        "文件",
+        "不存在",
+        "导致",
+        "issue",
+        "edit",
+        "静默"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: `gh` 已有认证配置，GH_TOKEN 从错误路径读取导致 edit 操作失败。用正确的 token 重跑：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "gh-token",
+        "assistant",
+        "已有",
+        "认证",
+        "配置",
+        "错误",
+        "路径",
+        "导致"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 多行输出合并问题了。用文件作为中间传递来修复：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "输出",
+        "合并",
+        "问题",
+        "文件",
+        "作为",
+        "中间",
+        "传递"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 进程被 SIGTERM 中断，但大部分已标记。检查当前状态：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "进程",
+        "sigterm",
+        "中断",
+        "大部分",
+        "标记",
+        "检查",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 进程一直被 SIGTERM 终止，可能是超时限制。用更简洁的方式检查：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "进程",
+        "一直",
+        "sigterm",
+        "终止",
+        "可能是",
+        "限制",
+        "简洁"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: `task,ready` 被当作单个标签名了！需要分开两次 `--add-label`。立即修复剩余的：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "add-label",
+        "assistant",
+        "task",
+        "ready",
+        "当作",
+        "标签",
+        "需要",
+        "分开"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: task+ready 仍然是 30，这很奇怪。检查一下实际情况：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "task",
+        "ready",
+        "仍然是",
+        "奇怪",
+        "检查",
+        "一下",
+        "实际"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 标记生效了！issues #231, #239, #283 现在都有 task+ready 了。总共标记了多少：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "标记",
+        "生效",
+        "issues",
+        "现在",
+        "都有",
+        "task",
+        "ready"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: #231 找到了！之前的 `--limit` 默认值导致只显示前30条。现在验证最终状态：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "找到",
+        "之前",
+        "limit",
+        "默认",
+        "导致",
+        "显示",
+        "现在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: ## Task Manager 执行完成 ✅ **标签统计：** - `task` 标签总数：**200** - `ready` 标签总数：**198** - `task+ready` 同时满足：**198** **来源分布：** | 标签 | 数量 | |------|------| | P0 | 81 | | P1 | 54 | | Bug | 14 | | tech-debt | 6 | | Critical | 0 | **验证采样（确认标签已生效）：** - #565 (Bug) → bug, **task,ready**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "tech-debt",
+        "assistant",
+        "task",
+        "manager",
+        "执行",
+        "完成",
+        "标签",
+        "统计"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-18 01:55:39 GMT+8] Exec failed (kind-bis, signal SIGTERM) :: 2026 需要标记的 Issues 总数: 73 6 10 11 12 13 73 175 187 231 239 283 284 285 286 287 288 289 290 291 292 ... (共 73 个) === 标记 task,ready === ✓ #6 ✓ #10 ✓ #11 ✓ #12 ✓ #13 ✓ #73 ✓ #175 ✓ #1… Sys",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "kind-bis",
+        "user",
+        "system",
+        "untrusted",
+        "gmt",
+        "exec",
+        "failed",
+        "kind"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [cron:7173fd59-bca0-4c7d-943d-c462bb2101f6 QA Review - 每3小时自动化代码审查] 你是一个AI代码审查员。请对最近提交的代码进行自动化审查，并更新需求追踪矩阵。 export PATH=\"/home/dht/gh/bin:$PATH\" export GH_TOKEN=*** ~/.openclaw/github-token) cd /home/dht/code-store/Microservices-HIS ## 第一步：检查最近提交 echo \"=== 最近提交 ===\" git log",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/dht/gh/bin",
+        "gh-token",
+        "openclaw/github-token",
+        "user",
+        "cron",
+        "7173fd59",
+        "bca0",
+        "4c7d"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: Now I'll create the review report and update the traceability matrix.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "i'll",
+        "create",
+        "the",
+        "review",
+        "report",
+        "update"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 🔍 **QA 自动化审查完成** **审查时间：** 2026-04-18 00:06 **审查提交：** `f79d441b9`（SkillEnrich 每日治理更新） **评分：** 8.5/10 ✅ **是否可合并：** 是 **发现问题：** 0个（无新代码质量问题） --- **📋 审查结果：** - ✅ `f79d441b9` — SkillEnrich 每日治理更新 - blood_request_test.go 重构（1730行变更，无功能变更） - 新增 CDSS/EMR 研究文档 - RISK.md / re",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "8.5/10",
+        "blood-request-test.go",
+        "cdss/emr",
+        "risk.md",
+        "assistant",
+        "自动",
+        "审查",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:159:159": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:159:159",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 159,
+      "endLine": 159,
+      "source": "memory",
+      "snippet": "Assistant: 现在测试一下脚本是否能正常运行：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "测试",
+        "一下",
+        "脚本",
+        "是否",
+        "正常",
+        "运行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:160:160": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:160:160",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 160,
+      "endLine": 160,
+      "source": "memory",
+      "snippet": "Assistant: 脚本运行成功！让我检查 push 是否完成，然后推送缺失的变更：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "脚本",
+        "运行",
+        "成功",
+        "检查",
+        "push",
+        "是否",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:161:161": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:161:161",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 161,
+      "endLine": 161,
+      "source": "memory",
+      "snippet": "Assistant: 远程有新提交，先拉取再推送：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "远程",
+        "提交",
+        "推送"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:162:162": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:162:162",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 162,
+      "endLine": 162,
+      "source": "memory",
+      "snippet": "Assistant: rebase 遇到 94 个提交的冲突，这是本地仓库长期未同步的遗留问题。先 abort：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "rebase",
+        "遇到",
+        "提交",
+        "冲突",
+        "本地",
+        "仓库",
+        "长期"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:163:163": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:163:163",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 163,
+      "endLine": 163,
+      "source": "memory",
+      "snippet": "Assistant: Skill Enrich 脚本本身运行正常。真正的问题是**本地仓库长期未同步**，有 94 个本地提交未推送到远程。 单独处理 Skill Enrich 的提交：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "skill",
+        "enrich",
+        "脚本",
+        "本身",
+        "运行",
+        "正常",
+        "真正"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:164:164": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:164:164",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 164,
+      "endLine": 164,
+      "source": "memory",
+      "snippet": "Assistant: 这就是根因——**本地 94 个提交未推送**，和远程分叉了。这 94 个提交全是有效工作（测试、文档、合规修复等），需要全部推送。 直接 force push 会覆盖远程，改为先同步再推送：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "就是",
+        "根因",
+        "本地",
+        "提交",
+        "推送",
+        "远程",
+        "分叉"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:165:165": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:165:165",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 165,
+      "endLine": 165,
+      "source": "memory",
+      "snippet": "Assistant: 现在测试一下脚本是否能正常运行：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "测试",
+        "一下",
+        "脚本",
+        "是否",
+        "正常",
+        "运行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:166:166": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:166:166",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 166,
+      "endLine": 166,
+      "source": "memory",
+      "snippet": "Assistant: 脚本运行成功！让我检查 push 是否完成，然后推送缺失的变更：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "脚本",
+        "运行",
+        "成功",
+        "检查",
+        "push",
+        "是否",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:167:167": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:167:167",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 167,
+      "endLine": 167,
+      "source": "memory",
+      "snippet": "Assistant: 远程有新提交，先拉取再推送：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "远程",
+        "提交",
+        "推送"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:168:168": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:168:168",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 168,
+      "endLine": 168,
+      "source": "memory",
+      "snippet": "Assistant: rebase 遇到 94 个提交的冲突，这是本地仓库长期未同步的遗留问题。先 abort：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "rebase",
+        "遇到",
+        "提交",
+        "冲突",
+        "本地",
+        "仓库",
+        "长期"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:169:169": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:169:169",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 169,
+      "endLine": 169,
+      "source": "memory",
+      "snippet": "Assistant: Skill Enrich 脚本本身运行正常。真正的问题是**本地仓库长期未同步**，有 94 个本地提交未推送到远程。 单独处理 Skill Enrich 的提交：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "skill",
+        "enrich",
+        "脚本",
+        "本身",
+        "运行",
+        "正常",
+        "真正"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:170:170": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:170:170",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 170,
+      "endLine": 170,
+      "source": "memory",
+      "snippet": "Assistant: 这就是根因——**本地 94 个提交未推送**，和远程分叉了。这 94 个提交全是有效工作（测试、文档、合规修复等），需要全部推送。 直接 force push 会覆盖远程，改为先同步再推送：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "就是",
+        "根因",
+        "本地",
+        "提交",
+        "推送",
+        "远程",
+        "分叉"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:171:171": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:171:171",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 171,
+      "endLine": 171,
+      "source": "memory",
+      "snippet": "Assistant: 看我当前 git 状态：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "当前",
+        "git",
+        "状态"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:172:172": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:172:172",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 172,
+      "endLine": 172,
+      "source": "memory",
+      "snippet": "Assistant: 情况有点复杂，先看一下 reflog 找到之前那个有 94 个新提交的 main 分支：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "情况",
+        "有点",
+        "复杂",
+        "看一下",
+        "reflog",
+        "找到",
+        "之前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:173:173": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:173:173",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 173,
+      "endLine": 173,
+      "source": "memory",
+      "snippet": "Assistant: 原来如此！rebase 是在 `issue-521` 分支上做的，不是 main。找 `issue-521` 最新状态：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "issue-521",
+        "assistant",
+        "原来",
+        "如此",
+        "rebase",
+        "是在",
+        "issue",
+        "分支"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:174:174": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:174:174",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 174,
+      "endLine": 174,
+      "source": "memory",
+      "snippet": "Assistant: 找到了！`issue-521` 分支有那 94 个新提交，但与 origin/main 完全分叉了。现在直接在 main 上 merge issue-521，把所有新工作合进去：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "issue-521",
+        "origin/main",
+        "assistant",
+        "找到",
+        "issue",
+        "分支",
+        "提交",
+        "origin"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:175:175": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:175:175",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 175,
+      "endLine": 175,
+      "source": "memory",
+      "snippet": "Assistant: 先清理之前的 cherry-pick 冲突状态：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "cherry-pick",
+        "assistant",
+        "清理",
+        "之前",
+        "cherry",
+        "pick",
+        "冲突",
+        "状态"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:176:176": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:176:176",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 176,
+      "endLine": 176,
+      "source": "memory",
+      "snippet": "Assistant: 干净了。现在把 issue-521 的 94 个新提交 merge 到 main：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "issue-521",
+        "assistant",
+        "干净",
+        "现在",
+        "issue",
+        "提交",
+        "merge"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 这些是之前各 exec 会话的完成通知，结果已在上面汇总过了。Task Manager 本轮任务已完成 ✓",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-17T19:00:00.261Z",
+      "lastRecalledAt": "2026-04-17T19:00:00.261Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "assistant",
+        "这些",
+        "之前",
+        "exec",
+        "会话",
+        "完成",
+        "通知",
+        "结果"
       ]
     }
   }
